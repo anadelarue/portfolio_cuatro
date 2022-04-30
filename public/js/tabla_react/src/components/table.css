@@ -1,0 +1,96 @@
+body{
+  background-color: #14202b;
+}
+table {
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    color: #ddd;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: #14202b;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    table-layout: fixed;
+  }
+
+table tr:first-child td {
+    border-top: 0;
+  }
+table tr td:first-child {
+    border-left: 0;
+  }
+table tr:last-child td {
+    border-bottom: 0;
+}
+table tr td:last-child {
+    border-right: 0;
+  }
+
+table td{
+    border: 0.5px solid #ddd;
+    padding: 8px;
+  }
+  
+table tr:hover {background-color: #212e3b;}
+  
+th{
+    position: sticky;
+    top: 0%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #14202b;
+    color: #ddd;
+    font-size: 14pt;
+  }
+.page_of, .go_to_page{
+    color: #ddd;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+  }
+button{
+    color: #ddd;
+    background-color: #14202b;
+    border: 1px solid #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 2%;
+  }
+button:hover{
+    background-color: #212e3b;
+  }
+
+
+.previous, .next{
+    width: 8%;
+  }
+
+input{
+  border-radius: 5%;
+}
+
+.paginador{
+    width: 5%;
+    background-color: #14202b;
+    border: 1px solid #ddd;
+    margin-left: 1%;
+    color: #ddd;
+  }
+.paginador:focus{
+  background-color: #212e3b;
+}
+.search{
+  color: white;
+  font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+}
+.buscador{
+  margin-left: 2%;
+  background-color: #14202b;
+  border: 1px solid #ddd;
+  color: #ddd;
+}
+
+.buscador:focus{
+  background-color: #212e3b;
+}

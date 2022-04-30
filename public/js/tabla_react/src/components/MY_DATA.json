@@ -1,0 +1,5 @@
+[{"numero_viviendas":25,"superficie_vivienda":65,"comunidad_autonoma":"Región de Murcia","municipio":"Blanca","precio_estimado":116.91},
+    {"numero_viviendas":10,"superficie_vivienda":93,"comunidad_autonoma":"Comunitat Valenciana","municipio":"Eslida","precio_estimado":131.25},
+    {"numero_viviendas":10,"superficie_vivienda":69,"comunidad_autonoma":"Principado de Asturias","municipio":"Aller","precio_estimado":136.0},
+    {"numero_viviendas":10,"superficie_vivienda":47,"comunidad_autonoma":"Principado de Asturias","municipio":"Langreo","precio_estimado":145.0},
+    {"numero_viviendas":16,"superficie_vivienda":70,"comunidad_autonoma":"Extremadura","municipio":"Almaraz","precio_estimado":150.0}]

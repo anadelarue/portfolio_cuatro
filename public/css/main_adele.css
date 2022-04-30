@@ -1,0 +1,233 @@
+    body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    overflow-x: hidden; 
+}
+
+    div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    text-size-adjust: 100%;
+    vertical-align: baseline;
+}
+div{
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+/* Desktops and laptops ----------- */
+@media (max-width : 1080px) {
+/* Styles */
+
+.picture{
+    height: 100vh;
+    position: relative;
+}
+.main_pic{
+    object-fit: cover;
+    object-position: 50% 20%;
+    width: 100vw;
+    height: 100vh;
+    vertical-align: top;
+}
+.titular{
+    position: absolute;
+    font-size: 40pt;
+    font-family: "Georgia";
+    left: 5%;
+    top: 50%;
+    margin-right: 20%;
+    color: white;
+    }
+.pie_foto{
+    left: 5%;
+    position: relative;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    margin-top: 1%;
+    color: gray;
+    
+    }    
+.autoria{
+    overflow: hidden;
+}
+.dot {
+  height: 90px;
+  width: 90px;
+  background-color: #bbb;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  left: 15%;
+  margin-top: 10%;
+  
+}
+.autora{
+    left: 17%;
+    position: relative;
+    font-family: "Georgia";
+    font-weight: 500;
+    font-size: 15pt;
+    margin-top: 13%;
+}
+.text{
+    margin: auto;
+    width: 70%;
+    position: relative;
+    font-family: "Georgia";
+    font-size: 16pt;
+    margin-top: 4%;
+}
+.parrafo{
+    margin-bottom: 5%;
+}
+}
+
+    
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width : 1224px){
+/* Styles */
+.picture{
+    height: auto;
+    vertical-align: top;
+    position: relative;
+}
+.main_pic{
+    object-fit: cover;
+    object-position: 50% 20%;
+    width: 100vw;
+    height: 100vh;
+    vertical-align: top;
+}
+.titular{
+    position: absolute;
+    font-size: 50pt;
+    font-family: "Georgia";
+    left: 5%;
+    top:60%;
+    margin-right: 20%;
+    color: white;
+    }
+.pie_foto{
+    left: 5%;
+    position: relative;
+    font-family: "Helvetica";
+    font-size: 18pt;
+    margin-top: 1%;
+    color: gray;
+    
+    }    
+.autoria{
+    overflow: hidden;
+}
+.dot {
+  height: 120px;
+  width: 120px;
+  background-color: #bbb;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  left: 22%;
+  margin-top: 10%;
+  
+}
+.autora{
+    left: 24%;
+    position: relative;
+    font-family: "Georgia";
+    font-weight: 500;
+    font-size: 18pt;
+    margin-top: 13%;
+}
+.text{
+    left: 20%;
+    position: relative;
+    font-family: "Georgia";
+    font-size: 20pt;
+    margin-top:2%;
+    width: 60%;
+}
+.parrafo{
+    margin-bottom: 5%;
+}
+}
+
+
+
+
+@media (max-width : 750px){
+    .picture{
+    height: auto;
+    vertical-align: top;
+    position: relative;
+}
+.main_pic{
+    object-fit: cover;
+    object-position: 50% 20%;
+    width: 100vw;
+    height: 100vh;
+    vertical-align: top;
+}
+.titular{
+    position: absolute;
+    font-size: 30pt;
+    font-family: "Georgia";
+    left: 5%;
+    top:60%;
+    margin-right: 20%;
+    color: white;
+    }
+.pie_foto{
+    left: 5%;
+    position: relative;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    margin-top: 1%;
+    color: gray;
+    
+    }    
+.autoria{
+    overflow: hidden;
+}
+.dot {
+  height: 85px;
+  width: 85px;
+  background-color: #bbb;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  left: 10%;
+  margin-top: 10%;
+  
+}
+.autora{
+    left: 12%;
+    position: relative;
+    font-family: "Georgia";
+    font-weight: 500;
+    font-size: 15pt;
+    margin-top: 13%;
+}
+.text{
+    position: relative;
+    font-family: "Georgia";
+    font-size: 20pt;
+    margin-top:2%;
+    width: 75%;
+}
+.parrafo{
+    margin-bottom: 5%;
+}
+}
+       

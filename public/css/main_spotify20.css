@@ -1,0 +1,159 @@
+body, html {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+p { 
+  margin:0 
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.picture{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.main_pic{
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.titular{
+    position: absolute;
+    font-size: 70pt;
+    font-family: "Helvetica";
+    font-weight: bold;
+    left: 5%;
+    top: 25%;
+    margin-right: 20%;
+    color: white;
+    }
+.subtitulo{
+   position: absolute;
+    font-size: 40pt;
+    font-family: "Helvetica";
+    font-style: italic;
+    font-weight: 600;
+    left: 5%;
+    top: 45%;
+    margin-right: 20%;
+    color: white; 
+}
+.parrafo{
+    margin: auto;
+    width: 60%;
+    position: relative;
+    font-family: "Cambria";
+    font-size: 16pt;
+    margin-top: 4%;
+    
+}
+.texto{
+    margin-bottom: 3%;
+}
+.grafico1{
+    position: relative;
+}
+.titulo_graf{
+    margin-top: 10%;
+    position: relative;
+    margin-right: 20%;
+    margin-left: 10%;
+}
+.titulo_1{
+    font-size: 25pt;
+    font-family: "Helvetica";
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.titulo_2{
+    font-size: 20pt;
+    font-family: "Helvetica";
+    font-style: oblique;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+.tablas{
+    overflow: hidden;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.myTable1{
+    position: relative;
+    float: left;
+}
+.myTable2{
+    position: relative;
+    left: 10%;
+}
+.nombre{
+    font-family: "Helvetica";
+    font-size: 14pt;
+}
+.oyentes{
+    font-family: "Helvetica";
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+#myTable {
+  border-spacing: 0;
+  margin: auto;
+  width: 70%;
+  font-family: "Helvetica";
+}
+.header, td {
+  padding: 16px; 
+}
+.header{
+    border-bottom: 4px #000000;
+    border-bottom-style: double;
+    font-size: 16pt;
+    text-align: center;
+    position:sticky;
+    top: 0;
+    background-color: white;
+    cursor: pointer;
+}
+td{
+    font-size: 12pt;
+    text-align: left;
+    border: solid 1.5pt white;
+}
+.bachata{
+    background-color: #ac9ff4;
+}
+.flamenco{
+    background-color: #e7e462;
+}
+.hiphop{
+    background-color: #ff8187;
+}
+.pop{
+    background-color: #ffb4ec;
+}
+.rap{
+    background-color: #f5a657;
+}
+.reggaeton{
+    background-color: #b9c8ff;
+}
+.trap{
+    background-color: #c1f0c1;
+}
+.urbano{
+    background-color: #8195e0;
+}
+.español{
+    background-color: #e7e462;
+}
+.ingles{
+    background-color: #b9c8ff;
+}

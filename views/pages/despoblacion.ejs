@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main_despoblacion.css" type ="text/css" media="all">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <title>A Contraluz</title>
+</head>
+<body>
+  <!-- Header -->
+  <div class="header container">
+		<video autoplay muted class="fullscreen-bg__video" id="videocabecera" loop>
+		<source src="recursos_despoblacion/video_cabecera.mp4" alt="vídeo cabecera">
+		</video>
+  </div>
+  <div class ="mapa_agricultura" id="mapaagricultura">
+	<div class = "agricultura">
+		<p>Agricultura</p>
+	</div>
+    </div>
+	<div class = "text">
+		<p>En España, solo un 4,4% de la población se dedica a la agricultura, aunque las  entre comunidades, las diferencias oscilan desde el 14,7% de la Región de Murcia, hasta el 0,1% de la Comunidad de Madrid. </p>
+		<p>Población y agricultura no dejan de estar estrechamente ligadas. Los cultivos de mayor rendimiento económico, como por ejemplo el olivar, las hortalizas o los frutales, se encuentran en zonas fértiles y necesitan de una mayor cantidad de mano de obra para su cultivo y recolección. </p>
+		<p>Mientras tanto, la zona de las mesetas y los puntos de alta montaña presentan cultivos más extensivos, aunque su rendimiento es mucho menor y no suelen necesitar de grandes cantidades de personal para su cuidado. Sin embargo, en los últimos años, la introducción de cultivos como el pistacho o la colza, podrían estar cambiando la agricultura de estas zonas.</p>
+	</div>
+    <div class="desplegable"> 
+    <div>   
+    <p class="titulo">Distribución de las explotaciones agrícolas</p>
+    </div>     
+  <div>
+        <select class="caja">
+            <option value="almendros">Almendros</option>
+            <option value="colza">Colza</option>
+            <option value="frutales">Frutales</option>
+            <option value="frutos_rojos">Frutos rojos</option>
+            <option value="hortalizas">Hortalizas</option>
+            <option value="olivar">Olivar</option>
+            <option value="pistacho">Pistacho</option>
+            <option value="vinedo">Viñedo</option>
+        </select>
+    </div>
+    <div class="almendros box">
+    <iframe src="recursos_despoblacion/cultivos/almendros/index_almendros.html"></iframe>
+    </div>
+    <div class="colza box">
+    <iframe src="recursos_despoblacion/cultivos/colza/index_colza.html"></iframe>
+    </div>
+    <div class="frutales box">
+    <iframe src="recursos_despoblacion/cultivos/frutales/index_frutales.html"></iframe>
+    </div>
+    <div class="frutos_rojos box">
+    <iframe src="recursos_despoblacion/cultivos/frutos_rojos/index_frutosrojos.html"></iframe>
+    </div>
+    <div class="hortalizas box">
+    <iframe src="recursos_despoblacion/cultivos/hortalizas/index_hortalizas.html"></iframe>
+    </div>
+    <div class="olivar box">
+    <iframe src="recursos_despoblacion/cultivos/olivar/index_olivar.html"></iframe>
+    </div>
+    <div class="pistacho box">
+    <iframe src="recursos_despoblacion/cultivos/pistacho/index_pistacho.html"></iframe>
+    </div>
+    <div class="vinedo box">
+    <iframe src="recursos_despoblacion/cultivos/vinedo/index_vinedo.html"></iframe>
+    </div>
+    </div>
+	<div class = "mapa_agricultura">
+		<div class = "agricultura">
+		<p>Carreteras</p>
+	   </div>
+	</div>
+	
+	<div class = "text">
+		<p>España posee, según el Ministerio de Transportes, Movilidad y Agenda Urbana, 165.624km de carreteras. Aunque el reparto de las vías convencionales a lo largo de todo el país es proporcionado, las vías rápidas, como autovías o autopistas, se concentran en aquellas comunidades con mayor concentración de población. </p>
+		<p>Esto	impide un acceso fácil, rápido y seguro a otras áreas de menor tamaño, lo que afecta de forma directa a su población. El gráfico muestra una relación entre los kilómetros de vías por tipo y el tamaño de cada comunidad autónoma en kilómetros cuadrados.</p>
+	</div>
+    <div class = "relacion_carreteras">
+		<p>Distribución de autovías por km<sup>2</sup></p>
+	</div>
+		<div class="slide_s2">
+		<video autoplay muted>
+		<source src="recursos_despoblacion/autovias_bueno.mov" alt="vídeo barras 1">
+		</video>
+        </div>
+	 <div class ="mapa_agricultura" id="mapaagricultura">
+	<div class = "agricultura">
+		<p>Edad</p>
+	</div>
+    </div>
+    <div class ="text">
+		<p>Con una esperanza de vida de 83,53 años y una edad media de 43,38 años, España es uno de los países más envejecidos de Europa y del mundo. Esta edad media, no obstante, se incrementa a medida que decrece el tamaño del territorio, debido a una mayor concentración de población anciana y una menor cantidad de población joven y adulta. Las diferencias que se atisban entre la media de población de una provincia y de sus municipios más pequeños pueden llegar a ser, por tanto, enormes. </p>
+	</div>
+	<div class = "titulo">
+		<p>Edad media de la población (por provincias)</p>
+	</div>
+	
+<table class="myTable">
+    <tr>
+   <!--When a header is clicked, run the sortTable function, with a parameter, 0 for sorting by names, 1 for sorting by country:-->  
+    <th class="header">Provincia</th>
+    <th class="header">Edad media</th>
+    <th class="header">Edad media <br> (municipios menos <br> 1000 habitantes)</th>
+    <th class="header">Diferencia edad</th>
+  </tr>
+  <tr>
+    <td>Zamora</td>
+    <td>50,68</td>
+    <td>57,7</td>
+    <td>7 años</td>
+  </tr>
+  <tr>
+    <td>Orense</td>  
+    <td>50,67</td>  
+    <td>57,7</td>  
+    <td>8 años</td>  
+  </tr>
+  <tr>
+    <td>Lugo</td>  
+    <td>49,8</td>  
+    <td>58,7</td>  
+    <td>3,9 años</td>  
+  </tr>
+    <tr>
+    <td>León</td>  
+    <td>48,87</td>  
+    <td>53,7</td>  
+    <td>9,1 años</td>  
+  </tr>
+    <tr>
+    <td>Asturias</td>  
+    <td>48,28</td>  
+    <td>57,9</td>  
+    <td>5,9 años</td>  
+  </tr>
+    <tr>
+    <td>Salamanca</td>  
+    <td>48,04</td>  
+    <td>54,2</td>  
+    <td>7,6 años</td>  
+  </tr>
+    <tr>
+    <td>Palencia</td>  
+    <td>47,95</td>  
+    <td>55,7</td>  
+    <td>6,4 años</td>  
+  </tr>
+    <tr>
+    <td>Ávila</td>  
+    <td>47,48</td>  
+    <td>54,4</td>  
+    <td>7,6 años</td>  
+  </tr>
+    <tr>
+    <td>Soria</td>  
+    <td>47,45</td>  
+    <td>55</td>  
+    <td>9,7 años</td>  
+  </tr>
+    <tr>
+    <td>La Coruña</td>  
+    <td>46,92</td>  
+    <td>-</td>  
+    <td>-</td>  
+  </tr>
+    <tr>
+    <td>Burgos</td>  
+    <td>46,54</td>  
+    <td>53,3</td>  
+    <td>6,8 años</td>  
+  </tr>
+    <tr>
+    <td>Teruel</td>  
+    <td>46,51</td>  
+    <td>52,1</td>  
+    <td>5,6 años</td>  
+  </tr>
+    <tr>
+    <td>Vizcaya</td>  
+    <td>46,01</td>  
+    <td>46,4</td>  
+    <td>0,4 años</td>  
+  </tr>
+    <tr>
+    <td>Cáceres</td>  
+    <td>45,98</td>  
+    <td>54,4</td>  
+    <td>8,4 años</td>  
+  </tr>
+    <tr>
+    <td>Valladolid</td>  
+    <td>45,91</td>  
+    <td>54,2</td>  
+    <td>8,3 años</td>  
+  </tr>
+    <tr>
+    <td>Segovia</td>  
+    <td>45,77</td>  
+    <td>52,1</td>  
+    <td>6,3 años</td>  
+  </tr>
+    <tr>
+    <td>Cuenca</td>  
+    <td>45,75</td>  
+    <td>54,8</td>  
+    <td>9 años</td>  
+  </tr>
+    <tr>
+    <td>Pontevedra</td>  
+    <td>45,6</td>  
+    <td>47,7</td>  
+    <td>2,1 años</td>  
+  </tr>
+    <tr>
+    <td>Cantabria</td>  
+    <td>45,57</td>  
+    <td>53,7</td>  
+    <td>8,1 años</td>  
+  </tr>
+    <tr>
+    <td>Huesca</td>  
+    <td>45,53</td>  
+    <td>51</td>  
+    <td>5,4 años</td>  
+  </tr>
+    <tr>
+    <td>Guipúzcoa</td>  
+    <td>45,06</td>  
+    <td>43,1</td>  
+    <td>-2 años</td>  
+  </tr>
+    <tr>
+    <td>La Rioja</td>  
+    <td>44,49</td>  
+    <td>53,1</td>  
+    <td>8,6 años</td>  
+  </tr>
+    <tr>
+    <td>Zaragoza</td>  
+    <td>44,41</td>  
+    <td>53,3</td>  
+    <td>8,9 años</td>  
+  </tr>
+    <tr>
+    <td>Álava</td>  
+    <td>44,38</td>  
+    <td>48</td>  
+    <td>3,6 años</td>  
+  </tr>
+    <tr>
+    <td>Ciudad Real</td>  
+    <td>43,83</td>  
+    <td>54,6</td>  
+    <td>10,8 años</td>  
+  </tr>
+    <tr>
+    <td>Alicante</td>  
+    <td>43,58</td>  
+    <td>51,3</td>  
+    <td>7,7 años</td>  
+  </tr>
+    <tr>
+    <td>Lérida</td>  
+    <td>43,41</td>  
+    <td>49,9</td>  
+    <td>6,5 años</td>  
+  </tr>
+    <tr>
+    <td>Badajoz</td>  
+    <td>43,38</td>  
+    <td>52,7</td>  
+    <td>9,3 años</td>  
+  </tr>
+    <tr>
+    <td>Albacete</td>  
+    <td>43,33</td>  
+    <td>50,6</td>  
+    <td>7,2 años</td>  
+  </tr>
+    <tr>
+    <td>Castellón</td>  
+    <td>43,33</td>  
+    <td>53,5</td>  
+    <td>10,1 años</td>  
+  </tr>
+    <tr>
+    <td>Jaén</td>  
+    <td>43,33</td>  
+    <td>52,7</td>  
+    <td>4,7 años</td>  
+  </tr>
+    <tr>
+    <td>Navarra</td>  
+    <td>43,27</td>  
+    <td>48</td>  
+    <td>5,6 años</td>  
+  </tr>
+    <tr>
+    <td>Valencia</td>  
+    <td>43,23</td>  
+    <td>48,8</td>  
+    <td>6,2 años</td>  
+  </tr>
+    <tr>
+    <td>Córdoba</td>  
+    <td>43,21</td>  
+    <td>49,4</td>  
+    <td>6,7 años</td>  
+  </tr>
+    <tr>
+    <td>Santa Cruz de Tenerife</td>  
+    <td>43,11</td>  
+    <td>-</td>  
+    <td>-</td>  
+  </tr>
+    <tr>
+    <td>Barcelona</td>  
+    <td>42,87</td>  
+    <td>46</td>  
+    <td>3,1 años</td>  
+  </tr>
+    <tr>
+    <td>Tarragona</td>  
+    <td>42,77</td>  
+    <td>47,6</td>  
+    <td>4,8 años</td>  
+  </tr>
+    <tr>
+    <td>Madrid</td>  
+    <td>42,35</td>  
+    <td>47</td>  
+    <td>4,6 años</td>  
+  </tr>
+    <tr>
+    <td>Granada</td>  
+    <td>42,33</td>  
+    <td>48,3</td>  
+    <td>6 años</td>  
+  </tr>
+    <tr>
+    <td>Gerona</td>  
+    <td>42,25</td>  
+    <td>45,5</td>  
+    <td>3,3 años</td>  
+  </tr>
+    <tr>
+    <td>Toledo</td>  
+    <td>42,21</td>  
+    <td>54,8</td>  
+    <td>12,6</td>  
+  </tr>
+    <tr>
+    <td>Málaga</td>  
+    <td>42,08</td>  
+    <td>48,2</td>  
+    <td>6,2 años</td>  
+  </tr>
+    <tr>
+    <td>Las Palmas</td>  
+    <td>41,92</td>  
+    <td>45,6</td>  
+    <td>3,7 años</td>  
+  </tr>
+    <tr>
+    <td>Huelva</td>  
+    <td>41,64</td>  
+    <td>48,3</td>  
+    <td>6,6 años</td>  
+  </tr>
+    <tr>
+    <td>Guadalajara</td>  
+    <td>41,56</td>  
+    <td>52,9</td>  
+    <td>11,4 años</td>  
+  </tr>
+    <tr>
+    <td>Cádiz</td>  
+    <td>41,51</td>  
+    <td>46</td>  
+    <td>4,5 años</td>  
+  </tr>
+    <tr>
+    <td>Islas Baleares</td>  
+    <td>41,48</td>  
+    <td>48,6</td>  
+    <td>7,1 años</td>  
+  </tr>
+    <tr>
+    <td>Sevilla</td>  
+    <td>41,23</td>  
+    <td>49,1</td>  
+    <td>7,9 años</td>  
+  </tr>
+    <tr>
+    <td>Murcia</td>  
+    <td>40,55</td>  
+    <td>48,5</td>  
+    <td>8 años</td>  
+  </tr>
+    <tr>
+    <td>Almería</td>  
+    <td>40,19</td>  
+    <td>51,3</td>  
+    <td>11 años</td>  
+  </tr>
+    <tr>
+    <td>Ceuta</td>  
+    <td>37,53</td>  
+    <td>-</td>  
+    <td>-</td>  
+  </tr>
+    <tr>
+    <td>Melilla</td>  
+    <td>35,45</td>  
+    <td>-</td>  
+    <td>-</td>  
+  </tr>
+</table>
+	<div class = "text">
+		<p>El índice de masculinización se establece como la relación de hombres sobre mujeres en un determinado territorio. Un índice alto, por tanto, muestra una mayor cantidad de población masculina que femenina y viceversa. En el gráfico, se relaciona el valor de este índice según provincia con dos variables clave: la población de dicha provincia y la cantidad de habitantes que residen en municipios de menos de 1.000 habitantes en cada una de ellas.</p>
+		<p>Por lo general, en las poblaciones más grandes suele habitar un mayor número de mujeres. Un aumento en la población femenina con titulación universitaria podría ser su causa, al tener un abanico laboral más amplio en las grandes urbes.</p>
+	</div>
+	<div class = "titulo">
+		<p>Índice de masculinización por provincias</p>
+	</div>
+        <div class="slide_s1">
+          <iframe src="recursos_despoblacion/scatterplot_1_new_features.html" alt="" overflow="hidden" scrolling="no"	id="abajo"></iframe>
+		</div>
+  <div class ="mapa_agricultura" id="mapaagricultura">
+	<div class = "agricultura">
+		<p>Turismo</p>
+	</div>
+	</div>
+	<div class = "text">
+		<p>El turismo, en general, supuso en 2018 un 12,3% del PIB del país y ocupaba a 12,7 millones de personas. El número de pernoctaciones en alojamientos rurales sobrepasó el pasado año los 11,5 millones. Esto supone un incremento de un 32,2% en la última década. Al igual que ocurre en zonas de mayor tamaño, el turismo se ha convertido en las provincias de mayores problemas de población, en una forma de subsistir y en un modo de evitar la desaparición.</p>		
+	</div>  
+    <div class="foot_container">
+		<video autoplay muted class="fullscreen-bg__video" id="videocabecera" loop>
+		<source src="recursos_despoblacion/video_zuheros_tres.mp4" alt="vídeo cabecera">
+		</video>
+    </div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("select").change(function(){
+        $(this).find("option:selected").each(function(){
+            var optionValue = $(this).attr("value");
+            if(optionValue){
+                $(".box").not("." + optionValue).hide();
+                $("." + optionValue).show();
+            } else{
+                $(".box").hide();
+            }
+        });
+    }).change();
+});
+</script>
+</body>
+</html>
