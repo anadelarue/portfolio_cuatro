@@ -1,0 +1,101 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390.87 290.44">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-linejoin: round;
+      }
+
+      .cls-1 {
+        stroke: #dcdcdc;
+        stroke-linecap: round;
+        stroke-width: 0.54px;
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        stroke: #fbd59a;
+        opacity: 0.2;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #cb7e42;
+      }
+
+      .cls-3 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-5, .cls-6 {
+        font-size: 14px;
+      }
+
+      .cls-11, .cls-5, .cls-7 {
+        fill: #dcdcdc;
+      }
+
+      .cls-10, .cls-5, .cls-6, .cls-7 {
+        font-family: FranklinGothic-Medium, Franklin Gothic Medium;
+        font-weight: 500;
+      }
+
+      .cls-6 {
+        fill: #ddd;
+      }
+
+      .cls-11, .cls-7 {
+        font-size: 16px;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-11, .cls-9 {
+        font-family: FranklinGothic-Book, Franklin Gothic Book;
+      }
+
+      .cls-9 {
+        font-weight: 400;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <title>7a</title>
+  <g>
+    <line class="cls-1" x1="7.35" y1="267.82" x2="304.54" y2="267.82"/>
+    <polyline class="cls-2" points="41.29 102.17 98.44 232.47 155.59 253.71 212.73 255.69 269.88 267.85"/>
+    <polyline class="cls-2" points="41.29 233.53 98.44 267.65 155.59 256.17 212.73 267.65 269.71 267.65"/>
+    <polyline class="cls-3" points="41.29 221.98 98.44 186.26 155.59 186.3 212.73 179.91 269.88 92.94"/>
+    <polyline class="cls-2" points="41.29 162.12 98.44 156.78 155.59 88.45 212.73 28.96 269.88 150.34"/>
+    <polyline class="cls-2" points="41.29 265.24 98.44 258.85 155.59 260.91 212.73 263.14 269.88 231.46"/>
+    <polyline class="cls-3" points="41.29 248.49 98.44 219.21 155.59 233.73 212.73 241.72 269.88 212.31"/>
+    <polyline class="cls-4" points="41.29 255.22 98.44 232.68 155.59 248.54 212.73 249.38 269.88 267.85"/>
+    <text class="cls-5" transform="translate(0.27 96.16)">40</text>
+    <line class="cls-1" x1="0.27" y1="99.36" x2="15.35" y2="99.36"/>
+    <text class="cls-5" transform="translate(0.27 11.67)">60</text>
+    <line class="cls-1" x1="0.27" y1="14.87" x2="15.35" y2="14.87"/>
+    <text class="cls-5" transform="translate(7.81 264.21)">0</text>
+    <text class="cls-5" transform="translate(0.27 180.72)">20</text>
+    <line class="cls-1" x1="0.27" y1="183.92" x2="15.35" y2="183.92"/>
+    <text class="cls-6" transform="translate(27.36 286.15)">&lt;30</text>
+    <text class="cls-6" transform="translate(75.57 286.15)">30-34</text>
+    <text class="cls-6" transform="translate(137.57 286.15)">35-39</text>
+    <text class="cls-6" transform="translate(194.57 286.15)">40-44</text>
+    <text class="cls-6" transform="translate(251.57 286.15)">45-49</text>
+    <text class="cls-7" transform="translate(197.79 67.26)">No ha <tspan class="cls-8" x="44.18" y="0">t</tspan><tspan x="49.11" y="0">enido pareja</tspan><tspan class="cls-9" x="134.68" y="0" xml:space="preserve"> o no ha </tspan><tspan class="cls-9"><tspan x="0" y="19.2">sido </tspan><tspan class="cls-10" x="32.02" y="19.2">adecuada</tspan></tspan></text>
+    <text class="cls-11" transform="translate(226.79 208.26)">M<tspan class="cls-12" x="12.96" y="0">o</tspan><tspan x="21.15" y="0">ti</tspan><tspan class="cls-8" x="29.74" y="0">v</tspan><tspan x="36.72" y="0">os </tspan><tspan class="cls-10" x="56.45" y="0">económicos</tspan></text>
+    <text class="cls-11" transform="translate(263.94 240.25)">P<tspan class="cls-13" x="8.95" y="0">r</tspan><tspan x="13.93" y="0">oblemas de </tspan><tspan class="cls-10"><tspan x="0" y="19.2">conciliación</tspan></tspan></text>
+  </g>
+</svg>

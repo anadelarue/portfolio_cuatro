@@ -38,9 +38,10 @@ app.get('/despoblacion',function (req, res) {
 app.get('/ucrania',function (req, res) {
         res.render('pages/ucrania')
     });
-app.get('/prueba_tabla',function (req, res) {
-        res.render('pages/prueba_tabla')
+app.get('/cristal',function (req, res) {
+        res.render('pages/cristal')
     });
+
 
 
     

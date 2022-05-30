@@ -1,0 +1,211 @@
+body, html{
+    background-color: #ddd;
+    transition: 0.3s background-color;
+}
+
+body.changeColor {
+    background-color: #15202b;
+}
+
+.texto_inicio{
+    font-size: 170%;
+    font-family: 'Playfair Display';
+    color: #15202b;
+    text-align: center;
+    font-weight: 500;
+}
+.titulo{
+    font-family: 'Playfair Display';
+    color: #15202b;
+    font-size: 350%;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.titulo.changeColor{
+    font-family: 'Playfair Display';
+    color: #ddd;
+    font-size: 350%;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.seccion{
+    font-family: 'Playfair Display';
+    color: #15202b;
+    font-size: 140%;
+}
+
+.seccion.changeColor{
+    font-family: 'Playfair Display';
+    color: #ddd;
+    font-size: 140%;
+}
+
+.autoria{
+    font-family: 'Franklin Gothic Medium';
+    color: #15202b;
+    font-size: 1.2em;
+}
+
+.autoria.changeColor{
+    font-family: 'Franklin Gothic Medium';
+    color: #ddd;
+    font-size: 1.2em;
+}
+
+.fecha{
+    font-family: 'Franklin Gothic Book';
+    color: #15202b;
+    font-size: 1em;
+}
+
+.fecha.changeColor{
+    font-family: 'Franklin Gothic Book';
+    color: #ddd;
+    font-size: 1em;
+}
+.dot {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.dot:hover{
+  background-color: #040506;
+  cursor: pointer;
+}
+#twitter{
+  height: 100%;
+  width: 100%;
+}
+
+.contacto{
+    margin-bottom: 5%;
+}
+
+.parrafo{
+    font-size: 1.25rem;
+    color: #ddd;
+    font-family: 'Playfair Display';
+}
+.capitulo{
+    font-size: 1.75rem;
+    color: #ddd;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.titulo_grafico{
+    font-size: 1.4rem;
+    color: #ddd;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1.25;
+}
+
+.explicacion_grafico{
+    font-size: 1.25rem;
+    color: #ddd;
+    font-family: 'Franklin Gothic Book';
+    line-height: 1.2;
+}
+
+.grafico{
+    margin-top: 5%;
+}
+
+.fuente{
+    font-size: 1rem;
+    color: rgba(221, 221, 221, 0.6);
+    font-family: 'Franklin Gothic Book';
+}
+
+.enlace_datos{
+    font-size: 1rem;
+    color: rgba(221, 221, 221, 0.6);
+    font-family: 'Franklin Gothic Book';
+}
+
+.enlace_datos:hover{
+    color: #fff;
+}
+
+.subtitulo_grafico{
+    font-size: 1.2rem;
+    color: rgba(221, 221, 221);
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+}
+
+.subexplicacion_grafico{
+    font-size: 1rem;
+    color: rgba(221, 221, 221);
+    font-family: 'Franklin Gothic Book';
+    margin-top: -5%;
+    line-height: 1.25;
+}
+
+  /* Estilos para la parte de scrollama */
+  #scrolly {
+    position: relative;
+    background-color: #14202b;
+  }
+  
+  .article-steps {
+    position: relative;
+    padding: 0;
+  }
+  
+  .sticky-thing {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /*background-color: #8a8a8a;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    z-index: 0;
+    top: 1vh;
+    height: 99vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+  }
+  
+  .sticky-thing p {
+    font-size: 12pt;
+    color: #ddd;
+  }
+  
+  .step {
+    margin: 0 auto 1000px auto;
+    color: #ddd;
+    font-family: 'Franklin Gothic Book';
+    line-height: 1.25rem;
+  }
+  
+  .step:last-child {
+    margin-bottom: 0;
+  }
+  
+  .step p {
+    text-align: left;
+    padding: 1.25rem;
+    font-size: 1.1rem;
+    background-color: rgba(20, 20, 20, 0.8);
+    border: #ddd solid 1px;
+  }
+  .word{
+      border-bottom: 1pt solid #cc7e42;
+      font-weight: bold;
+  }
+  /* Estilos para la parte de scrollama */
+
+.img_7b{
+    height: 88%;
+}
+

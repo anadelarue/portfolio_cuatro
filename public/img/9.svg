@@ -1,0 +1,143 @@
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 703.84 389.07">
+  <defs>
+    <style>
+      .cls-1, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17 {
+        opacity: 0.9;
+      }
+
+      .cls-2 {
+        fill: #f6f4cd;
+      }
+
+      .cls-3 {
+        fill: #f8ecba;
+      }
+
+      .cls-4 {
+        fill: #fbdfa7;
+      }
+
+      .cls-5 {
+        fill: #fad59a;
+      }
+
+      .cls-6 {
+        fill: #fbc98a;
+      }
+
+      .cls-7 {
+        fill: #f9be7d;
+      }
+
+      .cls-8 {
+        fill: #f7b46f;
+      }
+
+      .cls-9 {
+        fill: #f5a75e;
+      }
+
+      .cls-10 {
+        fill: #f49d55;
+      }
+
+      .cls-11 {
+        font-size: 20px;
+        fill: #ddd;
+        font-family: FranklinGothic-Medium, Franklin Gothic Medium;
+        font-weight: 500;
+      }
+
+      .cls-12 {
+        fill: #fabf7d;
+      }
+
+      .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17 {
+        stroke: #15202b;
+        stroke-miterlimit: 10;
+        stroke-width: 0.63px;
+      }
+
+      .cls-13 {
+        fill: #fbd59a;
+      }
+
+      .cls-14 {
+        fill: #f8edbb;
+      }
+
+      .cls-15 {
+        fill: #f39446;
+      }
+
+      .cls-16 {
+        fill: #f6a860;
+      }
+
+      .cls-17 {
+        fill: #f7f6cd;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-19 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-20 {
+        letter-spacing: -0.01em;
+      }
+    </style>
+  </defs>
+  <title>9</title>
+  <g>
+    <g class="cls-1">
+      <circle class="cls-2" cx="247.48" cy="10.71" r="10.71"/>
+      <circle class="cls-3" cx="271.81" cy="10.71" r="10.71"/>
+      <circle class="cls-4" cx="296.13" cy="10.71" r="10.71"/>
+      <circle class="cls-5" cx="320.45" cy="10.71" r="10.71"/>
+      <circle class="cls-6" cx="344.77" cy="10.71" r="10.71"/>
+      <circle class="cls-7" cx="369.1" cy="10.71" r="10.71"/>
+      <circle class="cls-8" cx="393.42" cy="10.71" r="10.71"/>
+      <circle class="cls-9" cx="417.74" cy="10.71" r="10.71"/>
+      <circle class="cls-10" cx="442.07" cy="10.71" r="10.71"/>
+    </g>
+    <text class="cls-11" transform="translate(193.82 18.01)">0%</text>
+    <text class="cls-11" transform="translate(470.82 18.01)">60%</text>
+  </g>
+  <g>
+    <rect class="cls-12" x="602.44" y="62.04" width="56.41" height="145.75" transform="translate(765.56 -495.74) rotate(90)"/>
+    <rect class="cls-13" x="602.44" y="118.45" width="56.41" height="145.75" transform="translate(821.97 -439.33) rotate(90)"/>
+    <rect class="cls-13" x="602.44" y="174.86" width="56.41" height="145.75" transform="translate(878.38 -382.92) rotate(90)"/>
+    <rect class="cls-13" x="602.44" y="231.26" width="56.41" height="145.75" transform="translate(934.79 -326.51) rotate(90)"/>
+    <rect class="cls-14" x="602.44" y="287.67" width="56.41" height="145.75" transform="translate(991.2 -270.1) rotate(90)"/>
+    <rect class="cls-15" x="456.69" y="62.04" width="56.41" height="145.75" transform="translate(619.81 -349.99) rotate(90)"/>
+    <rect class="cls-15" x="456.69" y="118.45" width="56.41" height="145.75" transform="translate(676.22 -293.58) rotate(90)"/>
+    <rect class="cls-15" x="456.69" y="174.86" width="56.41" height="145.75" transform="translate(732.63 -237.17) rotate(90)"/>
+    <rect class="cls-15" x="456.69" y="231.26" width="56.41" height="145.75" transform="translate(789.04 -180.76) rotate(90)"/>
+    <rect class="cls-16" x="456.69" y="287.67" width="56.41" height="145.75" transform="translate(845.45 -124.35) rotate(90)"/>
+    <rect class="cls-14" x="310.94" y="62.04" width="56.41" height="145.75" transform="translate(474.06 -204.24) rotate(90)"/>
+    <rect class="cls-14" x="310.94" y="118.45" width="56.41" height="145.75" transform="translate(530.47 -147.83) rotate(90)"/>
+    <rect class="cls-14" x="310.94" y="174.86" width="56.41" height="145.75" transform="translate(586.88 -91.42) rotate(90)"/>
+    <rect class="cls-13" x="310.94" y="231.26" width="56.41" height="145.75" transform="translate(643.29 -35.01) rotate(90)"/>
+    <rect class="cls-13" x="310.94" y="287.67" width="56.41" height="145.75" transform="translate(699.7 21.4) rotate(90)"/>
+    <g>
+      <rect class="cls-17" x="165.19" y="62.04" width="56.41" height="145.75" transform="translate(328.31 -58.49) rotate(90)"/>
+      <rect class="cls-17" x="165.19" y="118.45" width="56.41" height="145.75" transform="translate(384.72 -2.08) rotate(90)"/>
+      <rect class="cls-17" x="165.19" y="174.86" width="56.41" height="145.75" transform="translate(441.13 54.33) rotate(90)"/>
+      <rect class="cls-17" x="165.19" y="231.26" width="56.41" height="145.75" transform="translate(497.54 110.74) rotate(90)"/>
+      <rect class="cls-17" x="165.19" y="287.67" width="56.41" height="145.75" transform="translate(553.95 167.15) rotate(90)"/>
+    </g>
+    <text class="cls-11" transform="translate(0 144.01)">De <tspan class="cls-18" x="28.58" y="0">1</tspan><tspan x="40.03" y="0">6 a </tspan><tspan class="cls-19" x="72.57" y="0">2</tspan><tspan x="83.74" y="0">4</tspan></text>
+    <text class="cls-11" transform="translate(0 199.01)">De 25 a 34</text>
+    <text class="cls-11" transform="translate(0 257.01)">De 35 a 49</text>
+    <text class="cls-11" transform="translate(0 314.01)">De 50 a 64</text>
+    <text class="cls-11" transform="translate(0 363.01)">De 65 o más</text>
+    <text class="cls-11" transform="translate(304 93.01)">De 5 a 6</text>
+    <text class="cls-11" transform="translate(158 93.01)">De 0 a 4</text>
+    <text class="cls-11" transform="translate(448 93.01)">De 7 a 8</text>
+    <text class="cls-11" transform="translate(589 93.01)">De 9 a <tspan class="cls-20" x="61.12" y="0">1</tspan><tspan x="72.66" y="0">0</tspan></text>
+  </g>
+</svg>

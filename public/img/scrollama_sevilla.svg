@@ -1,0 +1,85 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 399.44 117.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fbd59a;
+      }
+
+      .cls-1, .cls-2 {
+        opacity: 0.9;
+      }
+
+      .cls-2 {
+        fill: #d0884c;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #ddd;
+        stroke-miterlimit: 10;
+        stroke-width: 0.5px;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #ddd;
+      }
+
+      .cls-4, .cls-9 {
+        font-family: FranklinGothic-Medium, Franklin Gothic Medium;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-6 {
+        font-size: 16px;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-6 {
+        font-family: FranklinGothic-Book, Franklin Gothic Book;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13 {
+        font-weight: 400;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <title>scrollama_sevilla</title>
+  <g>
+    <g>
+      <rect class="cls-1" x="3.6" y="73.62" width="190.38" height="23.92"/>
+      <rect class="cls-2" x="3.6" y="73.77" width="133.74" height="23.92"/>
+    </g>
+    <polyline class="cls-3" points="3.6 73.26 389.07 73.26 389.07 97.86"/>
+    <text class="cls-4" transform="translate(372 113.4)"><tspan class="cls-5">1</tspan><tspan x="6.33" y="0">720</tspan></text>
+    <text class="cls-4" transform="translate(0 113.4)">0</text>
+    <text class="cls-6" transform="translate(194.11 13.34)">Después de pagar el al<tspan class="cls-7" x="154.76" y="0">q</tspan><tspan x="163.17" y="0">uile</tspan><tspan class="cls-8" x="187.52" y="0">r</tspan><tspan x="191.92" y="0">, </tspan><tspan class="cls-7" x="0" y="19.2">q</tspan><tspan x="8.41" y="19.2">uedaría un </tspan><tspan class="cls-9" x="85.23" y="19.2">50,58% del </tspan><tspan class="cls-9"><tspan x="0" y="38.4">sueldo</tspan><tspan class="cls-10" x="45.28" y="38.4" xml:space="preserve"> para </tspan><tspan class="cls-11" x="84.02" y="38.4">o</tspan><tspan class="cls-10" x="92.21" y="38.4">t</tspan><tspan class="cls-12" x="97.13" y="38.4">r</tspan><tspan class="cls-10" x="102.12" y="38.4">os gas</tspan><tspan class="cls-13" x="145.59" y="38.4">t</tspan><tspan class="cls-10" x="150.27" y="38.4">os</tspan></tspan></text>
+    <line class="cls-3" x1="292.5" y1="73.41" x2="292.5" y2="60.95"/>
+  </g>
+</svg>

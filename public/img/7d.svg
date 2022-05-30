@@ -1,0 +1,122 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430.82 326.21">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-linejoin: round;
+      }
+
+      .cls-1 {
+        stroke: #cb7e42;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke: #fbd59a;
+        opacity: 0.2;
+      }
+
+      .cls-3 {
+        stroke: #dcdcdc;
+        stroke-linecap: round;
+        stroke-width: 0.54px;
+        opacity: 0.5;
+      }
+
+      .cls-4, .cls-6 {
+        font-size: 14px;
+      }
+
+      .cls-12, .cls-4, .cls-7 {
+        fill: #dcdcdc;
+      }
+
+      .cls-10, .cls-12, .cls-4, .cls-6 {
+        font-family: FranklinGothic-Medium, Franklin Gothic Medium;
+        font-weight: 500;
+      }
+
+      .cls-15, .cls-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-6 {
+        fill: #ddd;
+      }
+
+      .cls-12, .cls-7 {
+        font-size: 16px;
+      }
+
+      .cls-13, .cls-14, .cls-15, .cls-7 {
+        font-family: FranklinGothic-Book, Franklin Gothic Book;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-13, .cls-14, .cls-15 {
+        font-weight: 400;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-16 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-17 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-18 {
+        font-family: FranklinGothic-Demi, Franklin Gothic Demi;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <title>7d</title>
+  <g>
+    <polyline class="cls-1" points="33.91 143.06 84.22 78.81 134.53 4.61 184.84 24.93 235.16 72.86 285.47 125.21"/>
+    <polyline class="cls-2" points="33.91 303.89 84.22 288.91 134.53 292.4 184.84 281.21 235.16 274.95 285.47 276.59"/>
+    <polyline class="cls-2" points="33.91 241.29 84.22 225.79 134.53 267.97 184.84 271.77 235.16 287.47 285.47 276.9"/>
+    <polyline class="cls-1" points="33.91 227.53 84.22 225.79 134.53 215.42 184.84 219.84 235.16 192.02 285.47 200.02"/>
+    <polyline class="cls-2" points="33.91 267.25 84.22 258.53 134.53 250.52 184.84 259.04 235.16 270.12 285.47 237.08"/>
+    <polyline class="cls-2" points="33.91 289.88 84.22 291.73 134.53 292.45 184.84 289.58 235.16 287.21 285.47 294.4"/>
+    <polyline class="cls-2" points="33.91 28.63 84.22 128.8 134.53 193.15 184.84 209.47 235.16 199.41 285.47 189.35"/>
+    <polyline class="cls-2" points="33.91 305.53 84.22 298.15 134.53 301.13 184.84 278.03 235.16 289.73 285.47 293.12"/>
+    <polyline class="cls-2" points="33.91 249.91 84.22 262.22 134.53 273.31 184.84 262.94 235.16 270.84 285.47 259.35"/>
+    <polyline class="cls-1" points="33.91 249.7 84.22 243.96 134.53 225.07 184.84 219.32 235.16 187.61 285.47 188.84"/>
+    <polyline class="cls-2" points="33.91 269.92 84.22 262.02 134.53 249.09 184.84 240.37 235.16 231.64 285.47 223.22"/>
+    <polyline class="cls-2" points="33.91 271.97 84.22 283.75 134.53 283.75 184.84 291.99 235.16 284.98 285.3 284.98"/>
+    <line class="cls-3" x1="7.35" y1="307.78" x2="304.54" y2="307.78"/>
+    <text class="cls-4" transform="translate(7.81 304.16)">0</text>
+    <text class="cls-4" transform="translate(0.27 217.67)"><tspan class="cls-5">1</tspan><tspan x="8.07" y="0">0</tspan></text>
+    <line class="cls-3" x1="0.27" y1="220.87" x2="15.35" y2="220.87"/>
+    <text class="cls-4" transform="translate(0.27 114.67)">20</text>
+    <line class="cls-3" x1="0.27" y1="117.87" x2="15.35" y2="117.87"/>
+    <text class="cls-4" transform="translate(0.27 11.67)">30</text>
+    <line class="cls-3" x1="0.27" y1="14.87" x2="15.35" y2="14.87"/>
+    <text class="cls-6" transform="translate(15.68 321.92)">&lt; 25</text>
+    <text class="cls-6" transform="translate(64.2 321.92)">25-29</text>
+    <text class="cls-6" transform="translate(116.75 321.92)">30-34</text>
+    <text class="cls-6" transform="translate(169.3 321.92)">35-39</text>
+    <text class="cls-6" transform="translate(221.85 321.92)">40-44</text>
+    <text class="cls-6" transform="translate(274.41 321.92)">45-49</text>
+    <text class="cls-7" transform="translate(230.38 42.7)"><tspan class="cls-8">A</tspan><tspan x="8.31" y="0">umen</tspan><tspan class="cls-9" x="47" y="0">t</tspan><tspan x="51.68" y="0">o del permiso de</tspan><tspan class="cls-10"><tspan x="0" y="19.2">ma</tspan><tspan class="cls-11" x="22.57" y="19.2">t</tspan><tspan x="27.5" y="19.2">ernidad/pa</tspan><tspan class="cls-11" x="104.59" y="19.2">t</tspan><tspan x="109.52" y="19.2">ernidad</tspan></tspan></text>
+    <text class="cls-12" transform="translate(104.38 128.71)">No<tspan class="cls-13" x="18.86" y="0" xml:space="preserve"> h</tspan><tspan class="cls-14" x="31.5" y="0">a</tspan><tspan class="cls-13" x="39.61" y="0">y </tspan><tspan class="cls-15" x="50.25" y="0">q</tspan><tspan class="cls-13" x="58.66" y="0">ue </tspan><tspan x="79.66" y="0">incenti</tspan><tspan class="cls-16" x="125.81" y="0">v</tspan><tspan x="132.73" y="0">ar</tspan><tspan class="cls-13"><tspan x="0" y="19.2">la natalidad</tspan></tspan></text>
+    <text class="cls-12" transform="translate(274.38 163.71)">Asignación económica<tspan class="cls-13"><tspan x="0" y="19.2">para las </tspan><tspan class="cls-17" x="58.3" y="19.2">f</tspan><tspan x="62.96" y="19.2">amilias</tspan></tspan></text>
+    <text class="cls-12" transform="translate(274.38 217.71)">Fl<tspan class="cls-16" x="12.04" y="0">e</tspan><tspan x="20.23" y="0">xibilidad</tspan><tspan class="cls-18" x="77.45" y="0"> </tspan><tspan class="cls-13" x="81.45" y="0">en el</tspan><tspan class="cls-13"><tspan x="0" y="19.2">horario de trabajo</tspan></tspan></text>
+  </g>
+</svg>

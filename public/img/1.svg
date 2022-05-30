@@ -1,0 +1,91 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490.11 165.97">
+  <defs>
+    <style>
+      .cls-1, .cls-12 {
+        fill: none;
+        stroke: #dcdcdc;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        opacity: 0.7;
+      }
+
+      .cls-11, .cls-2 {
+        font-size: 16px;
+        fill: #dcdcdc;
+      }
+
+      .cls-10, .cls-2, .cls-6, .cls-8, .cls-9 {
+        font-family: FranklinGothic-Book, Franklin Gothic Book;
+      }
+
+      .cls-11, .cls-3, .cls-4 {
+        font-family: FranklinGothic-Medium, Franklin Gothic Medium;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-10, .cls-6, .cls-8, .cls-9 {
+        font-weight: 400;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-12 {
+        stroke-width: 0.82px;
+      }
+
+      .cls-13 {
+        fill: #f6f4cd;
+      }
+
+      .cls-14 {
+        fill: #cb7e42;
+      }
+    </style>
+  </defs>
+  <title>1</title>
+  <g>
+    <path class="cls-1" d="M354.71,63.38s20,2.58,31.22,13.25c9.63,9.13,6.06,26.61,6.06,26.61"/>
+    <text class="cls-2" transform="translate(257.23 13.34)">El año con más salidas al <tspan class="cls-3" x="175.11" y="0">e</tspan><tspan class="cls-4" x="183.3" y="0">xtran</tspan><tspan class="cls-4" x="218.14" y="0">-</tspan><tspan class="cls-4"><tspan x="0" y="19.2">je</tspan><tspan class="cls-5" x="12.3" y="19.2">r</tspan><tspan x="17.52" y="19.2">o</tspan><tspan class="cls-6" x="25.98" y="19.2" xml:space="preserve"> fue </tspan><tspan x="55.77" y="19.2">2</tspan><tspan class="cls-7" x="65.15" y="19.2">0</tspan><tspan x="74.13" y="19.2">15</tspan><tspan class="cls-6" x="92.9" y="19.2">, con un </tspan><tspan class="cls-8" x="150.67" y="19.2">t</tspan><tspan class="cls-9" x="155.35" y="19.2">o</tspan><tspan class="cls-6" x="163.54" y="19.2">tal de </tspan><tspan x="0" y="38.4">19.830</tspan><tspan class="cls-6" x="50.77" y="38.4" xml:space="preserve"> pe</tspan><tspan class="cls-10" x="71.64" y="38.4">r</tspan><tspan class="cls-6" x="77.01" y="38.4">sonas</tspan></tspan></text>
+    <text class="cls-11" transform="translate(0 161.06)">2020</text>
+    <text class="cls-11" transform="translate(0.24 122.65)">2<tspan class="cls-7" x="9.38" y="0">0</tspan><tspan x="18.37" y="0">15</tspan></text>
+    <text class="cls-11" transform="translate(0 84.24)">2009</text>
+    <g>
+      <g>
+        <line class="cls-12" x1="420.02" y1="80.96" x2="46.3" y2="80.96"/>
+        <rect class="cls-13" x="125.84" y="-2.34" width="19.3" height="166.6" transform="translate(216.45 -54.53) rotate(90)"/>
+      </g>
+      <g>
+        <line class="cls-12" x1="420.02" y1="118.44" x2="46.3" y2="118.44"/>
+        <rect class="cls-14" x="221.53" y="-60.56" width="19.3" height="357.99" transform="translate(349.62 -112.75) rotate(90)"/>
+      </g>
+      <g>
+        <line class="cls-12" x1="420.02" y1="155.95" x2="46.3" y2="155.95"/>
+        <rect class="cls-13" x="183.21" y="15.24" width="19.3" height="281.35" transform="translate(348.77 -36.95) rotate(90)"/>
+      </g>
+    </g>
+  </g>
+</svg>
