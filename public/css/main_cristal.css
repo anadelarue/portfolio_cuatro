@@ -43,25 +43,27 @@ body.changeColor {
 }
 
 .autoria{
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Lato';
+    font-weight: bold;
     color: #15202b;
     font-size: 1.2em;
 }
 
 .autoria.changeColor{
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Lato';
+    font-weight: bold;
     color: #ddd;
     font-size: 1.2em;
 }
 
 .fecha{
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Lato';
     color: #15202b;
     font-size: 1em;
 }
 
 .fecha.changeColor{
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Lato';
     color: #ddd;
     font-size: 1em;
 }
@@ -92,20 +94,22 @@ body.changeColor {
 .capitulo{
     font-size: 1.75rem;
     color: #ddd;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Lato';
+    font-weight: bold;
 }
 
 .titulo_grafico{
     font-size: 1.4rem;
     color: #ddd;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Lato';
+    font-weight: bold;
     line-height: 1.25;
 }
 
 .explicacion_grafico{
     font-size: 1.25rem;
     color: #ddd;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Lato';
     line-height: 1.2;
 }
 
@@ -116,13 +120,13 @@ body.changeColor {
 .fuente{
     font-size: 1rem;
     color: rgba(221, 221, 221, 0.6);
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Lato';
 }
 
 .enlace_datos{
     font-size: 1rem;
     color: rgba(221, 221, 221, 0.6);
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Lato';
 }
 
 .enlace_datos:hover{
@@ -132,14 +136,15 @@ body.changeColor {
 .subtitulo_grafico{
     font-size: 1.2rem;
     color: rgba(221, 221, 221);
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Lato';
+    font-weight: bold;
     line-height: 1;
 }
 
 .subexplicacion_grafico{
     font-size: 1rem;
     color: rgba(221, 221, 221);
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Lato';
     margin-top: -5%;
     line-height: 1.25;
 }
@@ -184,7 +189,7 @@ body.changeColor {
   .step {
     margin: 0 auto 1000px auto;
     color: #ddd;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Lato';
     line-height: 1.25rem;
   }
   

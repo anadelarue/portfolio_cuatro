@@ -37,20 +37,20 @@ html, body{
 }
 
 .texto_titulo{
-    font-family: "Century";
+    font-family: "Playfair Display";
     font-size: 40pt;
     text-align: left;
 }
 
 .subtitulo{
-    font-family: "Century";
+    font-family: "Playfair Display";
     font-weight: lighter;
     font-size: 20pt;
     margin-top: -2%;
 }
 
 .nombre{
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-size: 12pt;
     color: gray;
     text-transform: uppercase;
@@ -66,7 +66,7 @@ html, body{
 .parrafo_lead{
     width: 70%;
     margin-left: 15%;
-    font-family: "Century";
+    font-family: "Playfair Display";
     font-size: 20pt;
     text-align: center;
 }
@@ -82,13 +82,13 @@ html, body{
     width: 60%;
     margin-top: 5%;
     margin-left: 20%;
-    font-family: "Century";
+    font-family: "Playfair Display";
     font-size: 16pt;
     text-align: left;
 }
 
 .titulo_grafico{
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-size: 18pt;
     margin-top: 5%;
     margin-right: 30%;
@@ -96,7 +96,7 @@ html, body{
     
 }
 .subtitulo_grafico{
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-style: italic;
     font-size: 14pt;
     margin-top: -1%;
@@ -105,7 +105,7 @@ html, body{
 }
 
 .fuente{
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-size: 10pt;
     margin-left: 5%;
     color: dimgray;
@@ -114,7 +114,7 @@ html, body{
 }
 
 .titulo_grafico_2{
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-size: 18pt;
     margin-top: 5%;
     width: 60%;
@@ -123,7 +123,7 @@ html, body{
 }
 
 .subtitulo_grafico_2{
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-style: italic;
     font-size: 14pt;
     width: 60%;
@@ -133,7 +133,7 @@ html, body{
 }
 
 .fuente_2{
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-size: 10pt;
     margin-left: 3%;
     color: dimgray;
@@ -142,7 +142,7 @@ html, body{
 }
 
 .titulo_interactivo{
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-size: 16pt;
     width: 60%;
     margin-left: 20%;
@@ -151,7 +151,7 @@ html, body{
 }
 
 .subtitulo_interactivo{
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-style:oblique;
     font-weight: 100;
     font-size: 12pt;
@@ -196,7 +196,7 @@ html, body{
     left: 5%;
     width: 30%;
     background-color: #c4c4c4be;
-    font-family: 'Century Gothic';
+    font-family: 'Lato';
     font-weight: 300;
     border: 0.5px solid black;
     padding: 2%;
@@ -206,12 +206,12 @@ button {
   outline: none;
   border:0.001em solid gray;
   box-sizing: border-box;
-  font-family: "Century Gothic";
+  font-family: "Lato";
   font-size: 12pt;
   font-weight: 200;
- color:#FFFFFF;
- text-align:center;
- transition: all 0.2s;
+  color: #fff;
+  text-align: center;
+  transition: all 0.2s;
   background-color: #c4c4c4;
 }
 button:focus{
@@ -225,7 +225,7 @@ button:hover{
 }
 
 .fuente_3{
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-size: 10pt;
     margin-left: 15%;
     color: dimgray;
@@ -234,7 +234,7 @@ button:hover{
 }
 
 .fuente_4{
-   font-family: "Century Gothic";
+   font-family: "Lato";
    font-size: 10pt;
    margin-left: 21%;
    color: dimgray;

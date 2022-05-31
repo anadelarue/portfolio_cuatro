@@ -44,7 +44,7 @@ video{
 }
 .titulo{
     position: absolute;
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-size: 40pt;
     font-weight: bold;
     width:80%;
@@ -68,7 +68,7 @@ video{
     height: 20%;
     margin-left: 17%;
     margin-top: 25%;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-size: 17pt;
     font-weight: 600;
 }
@@ -78,7 +78,7 @@ video{
     height: 20%;
     margin-left: 22%;
     margin-top: 33%;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-size: 17pt;
 }
 .texto{
@@ -88,7 +88,7 @@ video{
     margin-top: 20%;
 }
 .parrafo_principal{
-    font-family: "Century";
+    font-family: "Playfair Display";
     font-size: 19pt;
 }
 .numeros{
@@ -101,7 +101,7 @@ video{
     margin-top: 15%;
     margin-bottom: 15%;
     text-align: center;
-    font-family: "Century Gothic";
+    font-family: "Lato";
     font-weight: bolder;
 }
 .numeros > h2{
@@ -110,7 +110,7 @@ video{
     color: black;
     margin-top:-33%;
     text-align: center;
-    font-family: "Century Gothic";
+    font-family: "Lato";
     width: 50%;
     margin-left: 25%;
 }
@@ -119,19 +119,19 @@ video{
     margin-left: 15%;
 }
 .titulito_seccion{
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-size: 22pt;
     font-weight: bold;
 }
 .parrafo_seccion{
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-size: 15pt;
     color: #8c8c8c;
     font-weight: 500;
 }
 .titulo_categoria{
     margin-top: 7%;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-size: 18pt;
     font-weight: bold;
 }
@@ -145,7 +145,7 @@ video{
 }
 .recuadro_uno, .recuadro_dos, .recuadro_tres, .recuadro_cuatro, .recuadro_cinco, .recuadro_seis, .recuadro_siete, 
 .recuadro_ocho > p{
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-size: 18pt;
 }
 mark{
@@ -160,12 +160,12 @@ mark{
     opacity: 0.5;
 }
 .parrafo{
-    font-family: "Century";
+    font-family: "Playfair Display";
     font-size: 14pt;
 }
 
 .parrafo_blanco{
-    font-family: "Century";
+    font-family: "Playfair Display";
     font-size: 14pt;
     color: white;
 }
@@ -179,7 +179,7 @@ mark{
     margin-left: 20%;
     position: relative;
     margin-top: 5%;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-weight: bold;
     font-size: 20pt;
     color: white;
@@ -189,7 +189,7 @@ mark{
     margin-left: 20%;
     position: relative;
     margin-top: 2%;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-weight: 400;
     font-size: 14pt;
     color: white;

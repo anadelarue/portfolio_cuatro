@@ -24,7 +24,7 @@ body, html {
 }
 .titulo{
     width: 40%;
-    font-family:"Avenir Next Cyr";
+    font-family:"Lato";
     font-size: 50pt;
     color: white;
     margin-top: 3%;
@@ -32,7 +32,7 @@ body, html {
 }
 .titulito_portada{
     width: 50%;
-    font-family:"Avenir Next Cyr";
+    font-family:"Lato";
     font-size: 18pt;
     color: white;
 }
@@ -44,7 +44,7 @@ hr{
 }
 
 .autor{
-    font-family: 'Avenir Next Cyr';
+    font-family: 'Lato';
     color: white;
     margin-top: 3%;
     font-size: 14pt;
@@ -90,14 +90,14 @@ h1, h2, h3 {
 }
 .titulito{
     color: white;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-size: 40pt;
     font-weight: bold;
     padding-top: 3%;
 }
 .titulito_cursiva{
     color: white;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-size: 30pt;
     font-weight: 400;
     font-style: italic; 
@@ -105,7 +105,7 @@ h1, h2, h3 {
 .mediotitulo{
     position: relative;
     padding-left: 5%;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-weight: bold;
     color: white;
     font-size: 20pt;
@@ -149,7 +149,7 @@ h1, h2, h3 {
 .mediotitulo2{
     position: relative;
     padding-left: 5%;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-weight: bold;
     color: white;
     font-size: 20pt;
@@ -158,7 +158,7 @@ h1, h2, h3 {
 .mediotitulo3{
     position: relative;
     padding-left: 5%;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-weight: bold;
     color: white;
     font-size: 20pt;
@@ -170,7 +170,7 @@ h1, h2, h3 {
 }
 .ladillo{
     color: white;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-size: 18pt;
     font-weight: bold;
     position: relative;
@@ -191,7 +191,7 @@ h1, h2, h3 {
 }
 .pie_pagina{
     color: white;
-    font-family: "Avenir Next Cyr";
+    font-family: "Lato";
     font-size: 14pt;
     padding-left: 25%;
 }
