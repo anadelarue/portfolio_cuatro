@@ -44,7 +44,7 @@ body{
     position: absolute;
     color: #ddd;
     font-size: 13pt;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Lato';
     width: 60%;
     left: 20%;
     top: 72%;
@@ -98,7 +98,8 @@ body{
 .titulo_mapas{
   width: 60%;
   color: #ddd;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Lato';
+  font-weight: bold;
   font-size: 30pt;
   text-align: center;
   margin-right: auto;
@@ -106,7 +107,7 @@ body{
   margin-bottom: 4%;
 }
 .titulo_mapas > p{
-  font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Lato';
   font-size: 15pt;
   color: #ddd;
 }
@@ -152,7 +153,7 @@ body{
 .step {
   margin: 0 auto 1000px auto;
   color: #fff;
-  font-family: 'Franklin Gothic Book';
+  font-family: 'Lato';
   line-height: 1.4em;
 }
 
@@ -170,7 +171,7 @@ body{
 /*Estilos tabla*/
 #example_wrapper{
   background-color: #14202b;
-  font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Lato';
   text-align: center;
 }
 table{
@@ -264,8 +265,8 @@ div.dataTables_wrapper div.dataTables_filter input{
   border-radius: 0;
 }
 div.dataTables_wrapper div.dataTables_filter label{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 200;
+  font-family: 'Lato';
+  font-weight: bold;
 }
 div.dataTables_wrapper div.dataTables_length select{
   background-color: #14202b;
