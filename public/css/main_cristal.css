@@ -1,33 +1,65 @@
 body, html{
-    background-color: #ddd;
+    background-color: #15202b;
     transition: 0.3s background-color;
 }
 
-body.changeColor {
+.scroll{
+    background-color: #ddd;
+}
+
+.scroll.changeColor{
     background-color: #15202b;
 }
 
+.laura{
+    width: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30vh;
+}
+
+.libros{
+    width: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15vh;
+}
+
+.avion{
+    width: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70vh;
+}
+
 .texto_inicio{
-    font-size: 170%;
+    font-size: 150%;
     font-family: 'Playfair Display';
     color: #15202b;
     text-align: center;
     font-weight: 500;
+    line-height: 2.1rem;
+    margin-top: 45vh;
 }
+
+.ultimo_parrafo{
+    margin-bottom: 45%;
+}
+
 .titulo{
     font-family: 'Playfair Display';
     color: #15202b;
     font-size: 350%;
     font-weight: 600;
     line-height: 120%;
+    letter-spacing: 0.2rem;
 }
 
 .titulo.changeColor{
-    font-family: 'Playfair Display';
     color: #ddd;
-    font-size: 350%;
-    font-weight: 600;
-    line-height: 120%;
 }
 
 .seccion{
@@ -37,9 +69,7 @@ body.changeColor {
 }
 
 .seccion.changeColor{
-    font-family: 'Playfair Display';
     color: #ddd;
-    font-size: 140%;
 }
 
 .autoria{
@@ -50,10 +80,7 @@ body.changeColor {
 }
 
 .autoria.changeColor{
-    font-family: 'Lato';
-    font-weight: bold;
     color: #ddd;
-    font-size: 1.2em;
 }
 
 .fecha{
@@ -63,10 +90,9 @@ body.changeColor {
 }
 
 .fecha.changeColor{
-    font-family: 'Lato';
     color: #ddd;
-    font-size: 1em;
 }
+
 .dot {
     height: 35px;
     width: 35px;
@@ -99,7 +125,7 @@ body.changeColor {
 }
 
 .titulo_grafico{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #ddd;
     font-family: 'Lato';
     font-weight: bold;
