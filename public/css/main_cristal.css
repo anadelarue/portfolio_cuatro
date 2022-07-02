@@ -3,13 +3,6 @@ body, html{
     transition: 0.3s background-color;
 }
 
-.scroll{
-    background-color: #ddd;
-}
-
-.scroll.changeColor{
-    background-color: #15202b;
-}
 
 .laura{
     width: 15vw;
@@ -38,7 +31,7 @@ body, html{
 .texto_inicio{
     font-size: 150%;
     font-family: 'Playfair Display';
-    color: #15202b;
+    color: #ddd;
     text-align: center;
     font-weight: 500;
     line-height: 2.1rem;
@@ -51,47 +44,35 @@ body, html{
 
 .titulo{
     font-family: 'Playfair Display';
-    color: #15202b;
+    color: #ddd;
     font-size: 350%;
     font-weight: 600;
     line-height: 120%;
     letter-spacing: 0.2rem;
 }
 
-.titulo.changeColor{
-    color: #ddd;
-}
 
 .seccion{
     font-family: 'Playfair Display';
-    color: #15202b;
+    color: #ddd;
     font-size: 140%;
 }
 
-.seccion.changeColor{
-    color: #ddd;
-}
 
 .autoria{
     font-family: 'Lato';
     font-weight: bold;
-    color: #15202b;
+    color: #ddd;
     font-size: 1.2em;
 }
 
-.autoria.changeColor{
-    color: #ddd;
-}
 
 .fecha{
     font-family: 'Lato';
-    color: #15202b;
+    color: #ddd;
     font-size: 1em;
 }
 
-.fecha.changeColor{
-    color: #ddd;
-}
 
 .dot {
     height: 35px;
@@ -117,6 +98,14 @@ body, html{
     color: #ddd;
     font-family: 'Playfair Display';
 }
+
+strong
+{
+background:white;
+color:#212529;
+padding:0 0.3em;
+}
+
 .capitulo{
     font-size: 1.75rem;
     color: #ddd;
@@ -175,6 +164,34 @@ body, html{
     line-height: 1.25;
 }
 
+.btn-primary{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    color: #ddd;
+    border: #ddd 1px solid;
+    background-color: transparent;
+    font: "Lato";
+}
+
+
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active{
+    box-shadow:none !important;
+    outline:0px !important;
+    box-shadow: none;
+    background-color: #ddd;
+    border: transparent;
+    color: #14202b;
+}
+.btn-primary:hover,
+.btn-primary:active{
+    background-color: #ddd;
+    color: #14202b;
+    border: #ddd 1px solid;
+}
+
   /* Estilos para la parte de scrollama */
   #scrolly {
     position: relative;
@@ -204,8 +221,8 @@ body, html{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease;
-  }
+    transition: all 1s ease;
+ }
   
   .sticky-thing p {
     font-size: 12pt;
