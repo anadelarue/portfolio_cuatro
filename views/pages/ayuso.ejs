@@ -1,108 +1,112 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/main_ayuso.css">
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-  <title>El cazador, cazado</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css" rel="stylesheet" />  
+    <link rel="stylesheet" href="css/main_ayuso.css" type ="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>El cazador, cazado</title>
 </head>
-<body class="page">
-    <div class="header_container">
-        <video autoplay muted class="fullscreen-bg__video" id="videocabecera">
-        <source src="video/video_portada_ayuso.mp4" alt="vídeo cabecera">
+<body>
+    <header>
+        <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+        <div class="overlay"></div>
+      
+        <!-- The HTML5 video element that will create the background video on the header -->
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="video/video_portada_ayuso.mp4" type="video/mp4">
         </video>
-        <div class="titulo_content">
-        <h1 class="titulo">El cazador, cazado</h1>
-        <p class="titulito_portada">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus expedita, dolorum quisquam quam incidunt temporibus voluptatum facilis nisi? Nisi, suscipit?</p>
-        <hr class="bajo_lead" size="5" width="15%" color="white">
-        <p class="autor">Por: <b>Ana Ruiz</b></p>
+      
+        <!-- The header content -->
+        <div class="container h-100">
+          <div class="d-flex h-100 align-items-center">
+            <div class="w-100 ms-3">
+                <h1 class="titulo col-8 col-xl-5 col-lg-5 col-md-5 col-sm-8">El cazador, cazado</h1>
+                <p class="titulito_portada col-10 col-xl-6 col-lg-6 col-md-6 col-sm-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus expedita, dolorum quisquam quam incidunt temporibus voluptatum facilis nisi? Nisi, suscipit?</p>
+                <hr class="bajo_lead col-10 col-xl-4 col-lg-4 col-md-4 col-sm-10" size="5" width="15%" color="white">
+                <p class="autor col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10">Por: <b>Ana Ruiz</b></p>        
+            </div>
+          </div>
         </div>
+        </header>
+    <div class="wrapper container col-10 col-xl-7 col-lg-7 col-md-7 col-sm-10">
+        <p class="primer_parrafo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
     </div>
-    <div class="parrafo">
-    <p class="primer_parrafo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+    <div class="container vh-100">
+        <div class="d-flex h-100 align-items-center">
+          <div class="w-100 ms-3">
+            <span class="rectangulo col-6 col-xl-3 col-lg-3 col-md-3 col-sm-6"></span>
+            <h1 class="titulito col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10">Parte 1. El principio del fin</h1>
+            <h2 class="titulito_cursiva col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10">Los orígenes del conflicto</h2>
+        </div>
+      </div>
     </div>
-    <div class="pagina_negra">
-        <div class="entre_titulo">
-        <div class="rectangulo"></div>
-        <h1 class="titulito">Parte 1. El principio del fin</h1>
-        <h2 class="titulito_cursiva">Los orígenes del conflicto</h2>
-        </div>    
-    </div>
-    <div class="mediotitulo">
-    <h3>1. <i>4M:</i> ¿victoria del PP o victoria de Ayuso?</h3>
-    </div>
-    <div class="parrafo">
-    <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+    <div class="container col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10 mt-4">
+        <h3 class="mediotitulo">1. <i>4M:</i> ¿victoria del PP o victoria de Ayuso?</h3>
+        <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
     </div>
     <%- include('../template/grafico-elecciones.html')-%>
-    <div class="under_chart">
-    <p id="uno">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim </p>
-    <p id="dos">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim </p>
+    <div class="container col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10" style="margin-top:10%;">
+        <h3 class="mediotitulo">2. Octubre 2021: Casado cita a Ayuso <br> por presuntas irregularidades</h3>
+        <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
     </div>
-    <div class="mediotitulo2">
-    <h3>2. Octubre 2021: Casado cita a Ayuso <br> por presuntas irregularidades</h3>
-    </div>
-    <div class="parrafo">
-    <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-    </div>
-    <div class="mediotitulo3">
-    <h3>3. Febrero 2022: la nueva Reforma Laboral se aprueba <br> por los pelos y sin querer</h3>
-    </div>
-    <div class="parrafo">
-    <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+    <div class="container col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10" style="margin-top:5%;">
+        <h3 class="mediotitulo">3. Febrero 2022: la nueva Reforma Laboral se aprueba <br> por los pelos y sin querer</h3>
+        <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
     </div>
     <%- include('../template/congreso.html')-%>
-    <div class="mediotitulo3">
-    <h3>4. La eterna constante: el Congreso Regional del PP de Madrid</h3>
-    </div>
-    <div class="parrafo">
-    <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+    <div class="container col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10" style="margin-top:5%;">
+      <h3 class="mediotitulo">4. La eterna constante: el Congreso Regional del PP de Madrid</h3>
+      <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
     </div>
     <%- include('../template/grafico-barones.html')-%>
-    <div class="pagina_negra">
-        <div class="entre_titulo">
-        <div class="rectangulo"></div>
-        <h1 class="titulito">Parte 2. Toda acción tiene <br> una reacción opuesta</h1>
-        <h2 class="titulito_cursiva">La última semana de Pablo Casado <br> como líder indicutible del PP</h2>
-        </div>    
+    <div class="container vh-100">
+      <div class="d-flex h-100 align-items-center">
+        <div class="w-100 ms-3">
+          <span class="rectangulo col-6 col-xl-3 col-lg-3 col-md-3 col-sm-6"></span>
+          <h1 class="titulito col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10">Parte 2. Toda acción tiene <br> una reacción opuesta</h1>
+          <h2 class="titulito_cursiva col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10">La última semana de Pablo Casado <br> como líder indicutible del PP</h2>
+      </div>
+    </div>
     </div>
     <%- include('../template/timeline.html')-%>
-    <div class="pagina_negra">
-        <div class="entre_titulo">
-        <div class="rectangulo"></div>
-        <h1 class="titulito">Parte 3. Conclusiones</h1>
-        <h2 class="titulito_cursiva">¿Hemos aprendido algo realmente?</h2>
-        </div>    
+    <div class="container vh-100">
+      <div class="d-flex h-100 align-items-center">
+        <div class="w-100 ms-3">
+          <span class="rectangulo col-6 col-xl-3 col-lg-3 col-md-3 col-sm-6"></span>
+          <h1 class="titulito col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10">Parte 3. Conclusiones</h1>
+          <h2 class="titulito_cursiva col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10">¿Hemos aprendido algo realmente?</h2>
+      </div>
     </div>
-    <div class="mediotitulo2">
-    <h3>1. Cascada de dimisiones</h3>
     </div>
-    <div class="parrafo">
-    <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-    </div>
-    <div class="ladillo">
-        <p>Quién se va y quién se queda en Génova</p>
+    <div class="container col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10" style="margin-top:5%;">
+      <h3 class="mediotitulo">1. Cascada de dimisiones</h3>
+      <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+      <p class="ladillo pt-3">Quién se va y quién se queda en Génova</p>
     </div>
     <%- include('../template/dimisiones.html')-%>
-    <div class="mediotitulo2">
-    <h3>2. Nuevo líder a la vista</h3>
+    <div class="container col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10" style="margin-top:5%;">
+      <h3 class="mediotitulo mb-3">2. Nuevo líder a la vista</h3>
+      <img class="foto1 mx-auto d-block" src="img/feijoo.jpg">
+      <p class="pie_pagina mt-3">Fuente: El Correo</p>
+      <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
     </div>
-    <div class="fotos">
-        <img class="foto1" src="img/feijoo.jpg">
-        <p class="pie_pagina">Fuente: El Correo</p>
+    <div class="container col-10 col-xl-8 col-lg-8 col-md-8 col-sm-10" style="margin-top:5%;padding-bottom: 5%;">
+      <h3 class="mediotitulo mb-3">3. El cazador, cazado</h3>
+      <img class="foto2 mx-auto d-block" src="img/ayuso_casado.jpg">
+      <p class="pie_pagina mt-3">Fuente: eldiario.es</p>
+      <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
     </div>
-    <div class="parrafo">
-    <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-    </div>
-    <div class="mediotitulo2">
-    <h3>3. El cazador, cazado</h3>
-    </div>
-    <div class="fotos">
-        <img class="foto1" src="img/ayuso casado.jpg">
-        <p class="pie_pagina">Fuente: eldiario.es</p>
-    </div>
-    <div class="parrafo">
-    <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-    </div>
+
+
+
+    
+    
+             
 </body>
 </html>

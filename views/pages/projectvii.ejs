@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Fuentes Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    <!-- Estilos AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css" rel="stylesheet" />      
+    <title>Project VII</title>
+    <style>
+      body {
+    margin: 0;
+    padding: 0;
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    font-size: 100%;
+    color: black;
+  }
+
+/* Estilos para la barra de navegación */
+  
+nav.navbar.navbar-expand{
+    background: linear-gradient(rgba(183, 208, 225, 1), rgba(183, 208, 225, 0.8), rgba(183, 208, 225, 0.6), rgba(183, 208, 225, 0.4), rgba(183, 208, 225, 0.2), rgba(183, 208, 225, 0.0));
+    height: 6em;
+  }
+
+  nav.navbar{
+    box-shadow: none;
+  }
+
+  a.navbar-brand{
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+    font-family: "Roboto Black";
+    font-size: 2.5em;
+  }
+
+  .nav-link.dropdown-toggle::after{
+    opacity: 0;
+  }
+
+  .dropdown-item{
+    font-family: "Roboto Light";
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .imagen_toggle{
+    width: 50px;
+    height: auto;
+    margin-top: 15%;
+  }
+  .nav-link.dropdown-toggle{
+    left: 0;
+  }
+
+
+/* Estilos para la barra de navegación */
+
+
+  .estructura_galeria{
+    margin-top: 10%;
+  }
+
+  .galeria{
+            max-height: 70vh;
+            padding: 0;
+            margin: 0;
+        }
+
+        .carousel-control-prev{
+            color: white;
+            opacity: 1;
+            text-shadow: 1px 1px rgba(183, 208, 225, 0.8);
+        }
+        .carousel-control-next{
+            color: white;
+            opacity: 1;
+            text-shadow: 1px 1px rgba(183, 208, 225, 0.8);
+        }
+
+        img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block; /* remove extra space below image */
+        margin:0 auto;
+        text-align:center;
+        }
+
+        .cabecera_proyecto{
+          margin-top: 3%;
+          font-family: "Roboto Black";
+          font-size: 22pt;
+          color: black;
+        }
+
+        .cabecera_proyecto:hover{
+          opacity: 0.7;
+          color: black;
+        }
+
+        .parrafo{
+          margin-top: 3em;
+          font-size: 12pt;
+          font-family: "Roboto Light";
+        }
+    .outer{
+      margin-top: 5%;
+      display: flex;
+      align-items: center;
+    }
+
+    .linea{
+      position: relative;
+      width: 60%;
+      border-bottom: 1px solid black;
+      opacity: 1;
+    }
+    .titulo_seccion{
+      width: 35%;
+      position: absolute;
+      margin-top: -1.5%;
+      text-align: center;
+      background-color: white;
+      font-family: "Roboto Black";
+      font-size: 20pt;
+    }
+    .contacto_uno{
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    background: linear-gradient(rgba(183, 208, 225, 0.0), rgba(183, 208, 225, 0.2), rgba(183, 208, 225, 0.4), rgba(183, 208, 225, 0.6), rgba(183, 208, 225, 0.8), rgba(183, 208, 225, 1));
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+p.contacto_uno_texto{
+    font-size: 14pt;
+    font-family: "Roboto Light";
+    text-align: center;
+    padding-top: 3%;
+
+}
+
+a.contacto_uno_enlace{
+    color: black;
+}
+
+a.contacto_uno_enlace:hover{
+    font-weight: bold;
+}
+
+.iconos_rrss{
+    height: 30px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand fixed-top d-inline" aria-label="Eighth navbar example">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown" aria-expanded="false"><img class="imagen_toggle" src="img/img_galeria/burger.png"></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/home_english#portfolio">Portfolio</a></li>
+              <li><a class="dropdown-item" href="/about">About</a></li>
+              <li><a class="dropdown-item" href="/contact">Contact</a></li>
+              <li><a class="dropdown-item" href="/"><b>Spanish</b></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <a href="/home_english" class="navbar-brand">Ana's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    </div>
+  </nav>
+
+      <div class="overflow-hidden estructura_galeria">
+        <div class="row d-flex justify-content-center">
+          <div class="col-10 col-xl-8 col-lg-8 col-md-10 col-sm-10 text-center">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade galeria" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/img_galeria/5.1.PNG" class="d-block imagen_galeria" alt="Proyecto 6. Imagen 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img_galeria/5.2.PNG" class="d-block imagen_galeria" alt="Proyecto 6. Imagen 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img_galeria/5.3.PNG" class="d-block imagen_galeria" alt="Proyecto 6. Imagen 3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        
+          </div>
+        </div>
+      </div>
+
+
+      <div class="overflow-hidden">
+        <div class="row d-flex justify-content-center">
+        <a href="/otan" class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 text-center cabecera_proyecto">Proyecto VII: <i>La OTAN,
+          su desarollo y relaciones con Rusia</i></a>
+        <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">Se trató un proyecto para experimentar con QGIS más a fondo y poder realizar mapas un poco más trabajados que los usados anteriormente. Sin embargo, el tema del reportaje era cómo la OTAN, desde el fin de la URSS, había coseguido integrar a Rusia en varios de sus proyectos. Sin embargo, en los últimos años y, sobre todo después de la anexión rusa de Crimea, las relaciones se habían enfriado hasta llegar a la desconexión.</i></p>
+        </div>
+      </div>
+      <div class="overflow-hidden">
+      <div class="row d-flex justify-content-center outer">
+        <hr class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 linea">
+        <h3 class="titulo_seccion">Tecnologías empleadas</h3>
+      </div>    
+        <div class="row d-flex justify-content-center">
+        <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">Para la maquetación del proyecto se empleó HTML y CSS.
+          La información se extrajo de diferentes páginas web y se limpió con Google Sheets.
+          Para la representación de la gráfica de líneas y los diagramas y la edición de los mapas, se utilizó Adobe Illustrator, que luego se exportó con ai2html, a excepción de los últimos mapas, que son imágenes.
+          El interactivo situado al final de la página es una plantilla de JS adaptada al estilo y necesidades de la página.</p>
+        </div>
+      </div>
+      <div class="overflow-hidden">
+        <div class="row d-flex justify-content-center outer">
+          <hr class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 linea">
+          <h3 class="titulo_seccion">Tema de los elementos</h3>
+        </div>    
+          <div class="row d-flex justify-content-center">
+          <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">- <b>Gráfico 1:</b> el mapa muestra la fecha de incorporación de cada uno de los países miembros de la OTAN.<br>
+            - <b>Gráfico 2:</b> el mapa muestra la localización de las bases militares de la OTAN y qué países miembros cuentan con un mayor número de estas en sus territorios.<br>
+            - <b>Gráfico 3:</b> el gráfico de líneas se centra en la evolución del gasto destinado en defensa por parte de cada uno de los países de la OTAN y por Rusia.<br>
+            - <b>Gráfico 4:</b> la línea temporal muestra la evolución en las relaciones entre Rusia y la OTAN.<br>
+            - <b>Gráfico 5:</b> el diagrama señala las áreas clave de cooperación entre Rusia y la OTAN en tiempos de paz.<br>
+            - <b>Gráfico 6:</b> el mapa indica las zonas en las que Rusia ha desplegado efectivos en las últimas décadas.</p>
+          </div>
+        </div>
+        <div class="overflow-hidden">
+          <div class="row d-flex justify-content-center outer">
+            <hr class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 linea">
+            <h3 class="titulo_seccion">Qué he aprendido</h3>
+          </div>    
+            <div class="row d-flex justify-content-center">
+            <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">Aprendí a trabajar con mapas en mayor profundidad y a cómo se pueden editar en Adobe Illustrator una vez realizados con QGIS, ya que los mapas que yo había realizado con este programa no tenían más edición una vez fuera de ahí.</p>
+            </div>
+          </div>
+          <div class="contacto_uno overflow-hidden">
+            <div class="row d-flex justify-content-center">
+            <p class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 contacto_uno_texto">6399440466 / annaruiz982@gmail.com / <a href="#" class="contacto_uno_enlace">descargar cv</a></p>
+            </div>
+            <div class="flex-row d-flex justify-content-center">
+                  <a class="rrss_uno col-1 col-xl-1 col-lg-1 col-md-1 col-sm-1" href="https://twitter.com/anabelruizaire"><img class="iconos_rrss" src="img/img_galeria/twitter.png" id="twitter" alt="Twitter"></a>
+                  <a class="rrss_uno col-1 col-xl-1 col-lg-1 col-md-1 col-sm-1" href="https://www.linkedin.com/in/ana-ruiz-espinar-171721197/"><img class="iconos_rrss" src="img/img_galeria/linkedin.png" id="twitter" alt="Linkedin"></a>
+            </div>
+          </div>
+          
+  
+  
+
+
+
+
+      
+
+    
+
+
+    
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
+
+</body>
+</html>

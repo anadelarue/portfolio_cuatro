@@ -4,19 +4,225 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ana's Portfolio</title>
+    <!-- Estilos bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Fuentes Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    <!-- Estilos AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css" rel="stylesheet" />  
+    <link href="css/main.css" rel="stylesheet">
+    
 </head>
 <body>
-    <a class="nav-link" href="/adele">Adele</a>
-    <a class="nav-link" href="/spotify20">El Monotema</a>
-    <a class="nav-link" href="/otan">OTAN</a>
-    <a class="nav-link" href="/oscar">Oscars</a>
-    <a class="nav-link" href="/embalses">Embalses</a>
-    <a class="nav-link" href="/ayuso">Ayuso</a>
-    <a class="nav-link" href="/alquiler">Alquiler</a>
-    <a class="nav-link" href="/despoblacion">Chloé Zhao</a>
-    <a class="nav-link" href="/ucrania">Ucrania</a>
-    <a class="nav-link" href="/cristal">Cristal</a>
 
+
+  <nav class="navbar navbar-expand fixed-top d-inline" aria-label="Eighth navbar example">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><img class="imagen_toggle" src="img/img_galeria/burger.png"></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+              <li><a class="dropdown-item" href="/sobremi">Sobre mí</a></li>
+              <li><a class="dropdown-item" href="/contacto">Contacto</a></li>
+              <li><a class="dropdown-item" href="/home_english"><b>English</b></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="navbar-brand">Ana's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    </div>
+  </nav>
+  <div class="w-100 overflow-hidden scroll">
+    <div class="row d-flex justify-content-center inicio">
+       <div class="col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 d-block">
+        <h1 class="apertura">Hola, soy Ana -</h1>
+        <h2 class="parrafo_apertura">Pasa, siéntate y aprende algo nuevo</h2>
+        <a href="/sobremi" class="sobre_mi_enlace"> Sobre mí >></a>
+       </div>
+    </div>
+</div>
+  <div class="container-fluid d-flex justify-content-center contenedor_titulo">
+      <div class="linea_1_titulo"></div>
+      <p class="titulo_1" id="portfolio">Portfolio</p>
+      <div class="linea_2_titulo"></div>
+  </div>
+  <div class="w-100 h-100 overflow-hidden mt-5">
+    <div class="row d-flex justify-content-center">
+        <div class="col-8 col-xl-5 col-lg-5 col-md-5 col-sm-8">
+          <a href="/proyectoi">
+          <div class="img-overlay">    
+          <img class="imagen_articulo" src="img/img_galeria/1.3.PNG">
+          <div class="overlay">
+            <div class="text">A Contraluz</div>
+          </div>
+          </div>
+          </a>     
+          <p class="titulo_proyecto">Proyecto I</p>
+          <p class="fecha_proyecto">junio - septiembre 2020</p>
+        </div>
+        <div class="col-8 col-xl-5 col-lg-5 col-md-5 col-sm-8">
+          <a href="/proyectoii">
+            <div class="img-overlay">    
+            <img class="imagen_articulo" src="img/img_galeria/2.3.PNG">
+            <div class="overlay">
+              <div class="text">Extracción de datos API Spotify</div>
+            </div>
+            </div>
+            </a>     
+            <p class="titulo_proyecto">Proyecto II</p>
+            <p class="fecha_proyecto">febrero 2022</p>  
+        </div>
+    </div>
+</div>
+<div class="w-100 h-100 overflow-hidden mt-5">
+  <div class="row d-flex justify-content-center">
+      <div class="col-8 col-xl-5 col-lg-5 col-md-5 col-sm-8">
+        <a href="/proyectoiii">
+        <div class="img-overlay">    
+        <img class="imagen_articulo" src="img/img_galeria/3.3.PNG">
+        <div class="overlay">
+          <div class="text">Sequía en la cuenca del Guadalquivir</div>
+        </div>
+        </div>
+        </a>     
+        <p class="titulo_proyecto">Proyecto III</p>
+        <p class="fecha_proyecto">febrero 2022</p>
+      </div>
+      <div class="col-8 col-xl-5 col-lg-5 col-md-5 col-sm-8">
+        <a href="/proyectoiv">
+          <div class="img-overlay">    
+          <img class="imagen_articulo" src="img/img_galeria/4.3.PNG">
+          <div class="overlay">
+            <div class="text">Extracción de datos API Spotify 2.0.</div>
+          </div>
+          </div>
+          </a>     
+          <p class="titulo_proyecto">Proyecto IV</p>
+          <p class="fecha_proyecto">febrero - marzo 2022</p>  
+      </div>
+  </div>
+</div>
+<div class="w-100 h-100 overflow-hidden mt-5">
+  <div class="row d-flex justify-content-center">
+      <div class="col-8 col-xl-5 col-lg-5 col-md-5 col-sm-8">
+        <a href="/proyectov">
+        <div class="img-overlay">    
+        <img class="imagen_articulo" src="img/img_galeria/8.1.PNG">
+        <div class="overlay">
+          <div class="text">Crisis en el Partido Popular</div>
+        </div>
+        </div>
+        </a>     
+        <p class="titulo_proyecto">Proyecto V</p>
+        <p class="fecha_proyecto">febrero - marzo 2022</p>
+      </div>
+      <div class="col-8 col-xl-5 col-lg-5 col-md-5 col-sm-8">
+        <a href="/proyectovi">
+          <div class="img-overlay">    
+          <img class="imagen_articulo" src="img/img_galeria/6.1.PNG">
+          <div class="overlay">
+            <div class="text">La guerra en Ucrania a través de RevealJS</div>
+          </div>
+          </div>
+          </a>     
+          <p class="titulo_proyecto">Proyecto VI</p>
+          <p class="fecha_proyecto">marzo 2022</p>  
+      </div>
+  </div>
+</div>
+<div class="w-100 h-100 overflow-hidden mt-5">
+  <div class="row d-flex justify-content-center">
+      <div class="col-8 col-xl-5 col-lg-5 col-md-5 col-sm-8">
+        <a href="/proyectovii">
+        <div class="img-overlay">    
+        <img class="imagen_articulo" src="img/img_galeria/5.1.PNG">
+        <div class="overlay">
+          <div class="text">La OTAN, su desarollo y relaciones con Rusia</div>
+        </div>
+        </div>
+        </a>     
+        <p class="titulo_proyecto">Proyecto VII</p>
+        <p class="fecha_proyecto">marzo - abril 2022</p>
+      </div>
+      <div class="col-8 col-xl-5 col-lg-5 col-md-5 col-sm-8">
+        <a href="/proyectoviii">
+          <div class="img-overlay">    
+          <img class="imagen_articulo" src="img/img_galeria/7.1.PNG">
+          <div class="overlay">
+            <div class="text">Los Oscars sí tienen género, el masculino</div>
+          </div>
+          </div>
+          </a>     
+          <p class="titulo_proyecto">Proyecto VIII</p>
+          <p class="fecha_proyecto">abril 2022</p>  
+      </div>
+  </div>
+</div>
+<div class="w-100 h-100 overflow-hidden mt-5">
+  <div class="row d-flex justify-content-center">
+      <div class="col-8 col-xl-5 col-lg-5 col-md-5 col-sm-8">
+        <a href="/proyectoix">
+        <div class="img-overlay">    
+        <img class="imagen_articulo" src="img/img_galeria/9.1.PNG">
+        <div class="overlay">
+          <div class="text">Los jóvenes españoles y el drama del alquiler</div>
+        </div>
+        </div>
+        </a>     
+        <p class="titulo_proyecto">Proyecto IX</p>
+        <p class="fecha_proyecto">abril 2022</p>
+      </div>
+      <div class="col-8 col-xl-5 col-lg-5 col-md-5 col-sm-8">
+        <a href="/proyectox">
+          <div class="img-overlay">    
+          <img class="imagen_articulo" src="img/img_galeria/10.2.PNG">
+          <div class="overlay">
+            <div class="text">La generación de cristal, al borde de romperse</div>
+          </div>
+          </div>
+          </a>     
+          <p class="titulo_proyecto">Proyecto X</p>
+          <p class="fecha_proyecto">mayo - junio 2022</p>  
+      </div>
+  </div>
+</div>
+<div class="contacto_uno overflow-hidden">
+  <div class="row d-flex justify-content-center">
+  <p class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 contacto_uno_texto">6399440466 / annaruiz982@gmail.com / <a href="#" class="contacto_uno_enlace">descargar cv</a></p>
+  </div>
+  <div class="row d-flex justify-content-center contacto">
+    <div class="col-8 col-xl-6 col-lg-6 col-md-6 col-sm-8 text-center">
+        <a class="m-2" href="https://twitter.com/anabelruizaire"><img class="iconos_rrss" src="img/img_galeria/twitter.png" id="twitter" alt="Twitter"></a>
+        <a class="m-2" href="https://www.linkedin.com/in/ana-ruiz-espinar-171721197/"><img class="iconos_rrss" src="img/img_galeria/linkedin.png" id="twitter" alt="Linkedin"></a>
+    </div>
+  </div>
+</div>
+
+    
+    
+
+
+    <!-- Libreria AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
+    
 </body>
 </html>
