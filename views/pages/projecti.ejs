@@ -117,18 +117,10 @@ nav.navbar.navbar-expand{
       align-items: center;
     }
 
-    .linea{
-      position: relative;
-      width: 60%;
-      border-bottom: 1px solid black;
-      opacity: 1;
-    }
     .titulo_seccion{
-      width: 35%;
-      position: absolute;
-      margin-top: -1.5%;
+      width: 50%;
+      position: relative;
       text-align: center;
-      background-color: white;
       font-family: "Roboto Black";
       font-size: 20pt;
     }
@@ -221,50 +213,40 @@ a.contacto_uno_enlace:hover{
 
       <div class="overflow-hidden">
         <div class="row d-flex justify-content-center">
-        <a href="/despoblacion" class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 text-center cabecera_proyecto">Proyecto I: <i>A Contraluz</i></a>
-        <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">A Contraluz, nombre que recibe este proyecto, fue mi Trabajo de Fin de Grado en el año 2020. Fue tremendamente desafiante ya que, aparte de una asignatura que había tenido aquel mismo año que estaba relativamente relacionada con el periodismo y la visualización de datos, no tenía ningún tipo de experiencia.
-          De todas formas, yo le tenía unas ganas impresionantes al proyecto y gracias a la ayuda recibida y las horas de investigación sobre cada uno de los puntos que lo componían pude realizar este proyecto.
-          Así fue como creé este reportaje, en el que la historia y objetivo principales eran los de mostrar los pequeños municipios de España como algo más que un número, como siempre acostumbramos a ver en los medios.
-          <i>El proyecto actual es resultado de un proceso de revisión, al que siguieron varios cambios en marzo de 2022.</i></p>
+        <a href="/despoblacion" class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 text-center cabecera_proyecto">Project I: <i>Backlit</i></a>
+        <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">Backlit, name that this project receives, was my end-of-degree project in 2020. It was extremely challenging because, apart from a class I took that very same year that was relatively related to journlaism and data visualization, I had no other kind of experience. Anyway, I really wanted to start this project and I could bring it to an end thanks to all the help received and hours and hours of research and hard work. That is how I could create this report, whose main objective was to show all those small towns in Spain as something more than a number, as we usually see in media.
+          <i>The actual version is a result of a revision process that took place in March 2022.</i></p>
         </div>
       </div>
       <div class="overflow-hidden">
       <div class="row d-flex justify-content-center outer">
-        <hr class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 linea">
-        <h3 class="titulo_seccion">Tecnologías empleadas</h3>
+        <h3 class="titulo_seccion mt-4">Technologies used</h3>
       </div>    
         <div class="row d-flex justify-content-center">
-        <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">Para la maquetación del proyecto se empleó HTML y CSS.
-          Por lo demás, si se observa de arriba abajo, los vídeos tanto en la portada como en el footer fueron editados con Adobe Premiere, mientras que los mapas que aparecen se crearon con QGIS y fueron exportados al primer programa en formato de imagen.
-          El mapa justo debajo de la cabecera también fue creado con QGIS, aunque se pasó a formato web con el plugin QGIS2Web, lo que le aportó interactividad. El código JS del desplegable proviene de una plantilla customizada. 
-          El gráfico de barras se realizó con la herramienta de gráficos de Adobe Illustrator, para después pasar a Adobe After Effects, donde cada barra fue animada individualmente.
-          El scatterplot, que es un elemento interactivo, se realizó con la librería ggplot2 de R, que permite también aplicar interactividad a varios tipos de gráficos.</p>
+        <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">For the layout HTML and CSS were used. Besides that, when looking from top to bottom, both videos (at the beginning and end of the page) were editied with Adobe Premiere. All maps appearing in the videos were created with QGIS and exported as images. The map under the header was also created with QGIS, although it was exported to HTML format with QGIS’s plugging qgis2web. The drop-down menu on top of the maps was created by customizing a JS template. The bar graph was created with Adobe Illustrator’s chart tool and animted with Adobe After Effects. The scatterplot at the bottom was created with R’s library ggplot2, that also allows for interactivity to be applied to graphs.</p>
         </div>
       </div>
       <div class="overflow-hidden">
         <div class="row d-flex justify-content-center outer">
-          <hr class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 linea">
-          <h3 class="titulo_seccion">Tema de los elementos</h3>
+          <h3 class="titulo_seccion mt-4">Elements’ topics</h3>
         </div>    
           <div class="row d-flex justify-content-center">
-          <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">-  Distribución de las explotaciones agrícolas: distribución de explotaciones agrícolas por comunidad autónoma, atendiendo a distintos tipos de cultivos.<br>-  Distribución de autovías por km2: distribución de los kilómetros de autovías por kilómetro cuadrado por comunidad autónoma.<br>
-            -  Edad media de la población (por provincias): lista ordenada con las provincias con mayor edad media y la diferencia que existe entre esta cifra y la media de los municipios de cada una de ellas que tienen menos de 1000 habitantes.<br>
-            -  Índice de masculinización por provincias: scatterplot que representa el número de hombres sobre mujeres en todas las provincias españolas.</p>
+          <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">-  Distribution of agricultural holdings: distribution of agricultural holdings per region, regarding different kinds of crops.<br>-  Distribution of highways per km2: distribution of the kilometers of highways in every region per squared kilometer.<br>
+            -  Average age per province: ordered list including the average age of every Spanish province and the difference between this number and the average age of towns below 1000 inhabitants.<br>
+            -  Masculinity rate per province: scatterplot that represents the number of men over women in every Spanish province.</p>
           </div>
         </div>
         <div class="overflow-hidden">
           <div class="row d-flex justify-content-center outer">
-            <hr class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 linea">
-            <h3 class="titulo_seccion">Qué he aprendido</h3>
+            <h3 class="titulo_seccion mt-4">What I learnt from it</h3>
           </div>    
             <div class="row d-flex justify-content-center">
-            <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">El querer meterme tan de lleno desde el primer momento tuvo sus puntos positivos y negativos, ya que invertí un verano que jamás recuperaré, pero comprendí cómo se estructuran las páginas web, cómo obtener datos de fuentes online y cómo analizarlos y limpiarlos. Todo esto seguido de cómo representar datos con R, cómo emplear la herramienta de gráficos de Adobe Illustrator o cómo mejorar mis nociones de edición de vídeo con Adobe Premiere.
-              Aunque quizá lo más importante fue saber cómo es el proceso que hay detrás de cada historia. El plantearse las cosas 100 veces para poder obtener lo mejor. El saber cómo articular un buen tema y convertirlo en una historia brillante. Creo que eso fue lo mejor.</p>
+            <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">Wanting to create such project with so little knowlege had its up- and downsides. I invested all my time on a summer that I will never have back, but I learnt how websites are structured and created or how to obtain, analyze and clean data. All of this followed by tha fact that I learnt how to improve my Adobe Illustrator skills, how to represent data with R or how to improve my video editing notions.Although maybe the best thing was that I could understand whta the process behind every story is like. Knowing how to articulate a good topic and turning it into a brilliant story. I think that was the best.</p>
             </div>
           </div>
           <div class="contacto_uno overflow-hidden">
             <div class="row d-flex justify-content-center">
-            <p class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 contacto_uno_texto">6399440466 / annaruiz982@gmail.com / <a href="#" class="contacto_uno_enlace">descargar cv</a></p>
+            <p class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 contacto_uno_texto">6399440466 / annaruiz982@gmail.com / <a href="pdf/resume_Ana_Ruiz_Espinar.pdf" download class="contacto_uno_enlace">download resume</a></p>
             </div>
             <div class="flex-row d-flex justify-content-center">
                   <a class="rrss_uno col-1 col-xl-1 col-lg-1 col-md-1 col-sm-1" href="https://twitter.com/anabelruizaire"><img class="iconos_rrss" src="img/img_galeria/twitter.png" id="twitter" alt="Twitter"></a>

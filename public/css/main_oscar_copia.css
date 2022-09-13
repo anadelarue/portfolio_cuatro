@@ -1,0 +1,162 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    width: 100%;
+    height: 100%;
+}
+  
+header {
+    position: relative;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+  
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+  
+header .container {
+    position: relative;
+    z-index: 2;
+}
+  
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.titulo{
+    font-family: "Lato";
+    font-size: 35pt;
+    font-weight: bold;
+}
+.pequeno_titulo{
+    font-family: "Lato";
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+.bajo_lead{
+    margin: auto;
+    color: black;
+}
+
+.parrafo_principal{
+    font-family: "Playfair Display";
+    font-size: 14pt;
+}
+.rec_uno{
+    position: relative;
+    font-size: 225pt;
+    color: #37186581;
+    text-align: center;
+    font-family: "Lato";
+    font-weight: bolder;
+}
+.titulo_animado_uno{
+    font-size: 40pt;
+    color: black;
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 600;
+}
+
+.titulito_seccion{
+    font-family: "Lato";
+    font-size: 16pt;
+    font-weight: bold;
+}
+.parrafo_seccion{
+    font-family: "Lato";
+    font-size: 14pt;
+    color: #8c8c8c;
+    font-weight: 500;
+}
+.titulo_categoria{
+    font-family: "Lato";
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.recuadro_uno, .recuadro_dos, .recuadro_tres, .recuadro_cuatro, .recuadro_cinco, .recuadro_seis, .recuadro_siete, 
+.recuadro_ocho > p{
+    font-family: "Lato";
+    font-size: 18pt;
+    line-height: 7vh;
+}
+mark{
+    color: white;
+}
+.hombre{
+    background-color: #1f8f76;
+    opacity: 0.5;
+}
+.mujer{
+    background-color: #371865;
+    opacity: 0.5;
+}
+
+.parrafo{
+    font-family: "Playfair Display";
+    font-size: 14pt;
+}
+
+.cuadro_violeta{
+    background-color: #371865;
+    opacity: 0.5;
+    padding-top: 5%;
+}
+
+.parrafo_blanco{
+    font-family: "Playfair Display";
+    font-size: 14pt;
+    color: white;
+}
+
+.titulo_grafico{
+    position: relative;
+    margin-top: 5%;
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 16pt;
+    color: white;
+}
+.texto_grafico{
+    position: relative;
+    margin-top: 2%;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 14pt;
+    color: white;
+}
+.texto_parrafo{
+    width: 60%;
+    margin-left: 20%;
+    position: relative;
+    margin-top: 5%;
+}
+
+
+
+
+
+  

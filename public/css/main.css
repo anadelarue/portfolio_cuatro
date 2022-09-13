@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     min-height: 75rem;
-    padding-top: 4.5rem;
     font-size: 100%;
+    color: black;
   }
 /* Estilos para la barra de navegación */
   
@@ -77,24 +77,15 @@ body {
   opacity: 0.6;
 }
 
-.titulo_1{
-    font-family: "Roboto Black";
-    font-size: 25pt;
-    padding: 0 2% 0 2%;
+.titulo_seccion{
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: "Roboto Black";
+  font-size: 2.5em;
+  margin-bottom: 5%;
 }
 
-.linea_1_titulo{
-    width: 7%;
-    height: 0.5px;
-    background-color: black;
-    margin-top: 2%;
-}
-.linea_2_titulo{
-    width: 7%;
-    height: 0.5px;
-    background-color: black;
-    margin-top: 2%;
-}
 
 .imagen_articulo{
     max-width: 100%;

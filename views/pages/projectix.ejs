@@ -125,11 +125,9 @@ nav.navbar.navbar-expand{
       opacity: 1;
     }
     .titulo_seccion{
-      width: 35%;
-      position: absolute;
-      margin-top: -1.5%;
+      width: 50%;
+      position: relative;
       text-align: center;
-      background-color: white;
       font-family: "Roboto Black";
       font-size: 20pt;
     }
@@ -223,46 +221,38 @@ a.contacto_uno_enlace:hover{
 
       <div class="overflow-hidden">
         <div class="row d-flex justify-content-center">
-        <a href="/alquiler" class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 text-center cabecera_proyecto">Proyecto IX: <i>Los jóvenes españoles y el drama del alquiler</i></a>
-        <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">Esta pieza por sí sola no tiene mucho sentido, ya que debería mostrar los problemas de los jóvenes españoles a la hora de alquilar una vivienda y no lo hace porque ese es el tema de mi Trabajo de Fin de Máster, en el que se ahonda en por qué la estas últimas generaciones están viviendo y vivirán peor que sus progenitores.
-          Sin embargo, documentándome sobre el tema, me pareció interesante jugar con estos datos por sí solos y realizar un mapa y una tabla, el primero para mostrar de forma visual la situación en las ciudades más grandes de España y la segunda, para analizar esta situación en profundidad.</p>
+        <a href="/alquiler" class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 text-center cabecera_proyecto">Project IX: <i>Spanish young people and the rent drama</i></a>
+        <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">This piece by itself does not make a lot of sense. The topic of this project is a part of  what my end-of-masters-degree project ended up being, a story about how Spanish young people will live in worse conditions than their parents. Nevertheless, while doing some research for the project, I found it interesting to play with this data and to create a map and a table. The first one shows the situation in the six biggest cities and the second one helps dive in the information.</p>
         </div>
       </div>
       <div class="overflow-hidden">
       <div class="row d-flex justify-content-center outer">
-        <hr class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 linea">
-        <h3 class="titulo_seccion">Tecnologías empleadas</h3>
+        <h3 class="titulo_seccion mt-4">Technologies used</h3>
       </div>    
         <div class="row d-flex justify-content-center">
-        <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">Para la maquetación del proyecto se empleó HTML y CSS.
-          Los datos se encontraban dentro de un shapefile, por lo que se importó en QGIS y los datos se exportaron en formato .csv para poder realizar la tabla.
-          El mapa también está realizado con QGIS y muestra los barrios más caros de las ciudades más grandes de España, una vez terminados, se exportaron en formato imagen, para después aplicarles de nuevo el efecto de scrolling con Scrollama.
-          La tabla se hizo con un paquete de JS llamado DataTables, que permite la creación de tablas filtrables y con paginación a las que, posteriormente se puede añadir estilos con CSS.
-          El título está animado con otro paquete de JS llamado Anime.js, que permite la animación de elementos HTML a través de selectores CSS.</p>
+        <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">For the layout HTML and CSS were used. Data was inside a shapefile that was imported in QGIS and said data was later exported in .csv format for the table to be created. The map was created in QGIS and shows the most expensive neighbourhoods in Spain’s biggest cities. With them, a scrollytelling element was created and animated with Scrollama. The table was made with a JS library called DataTables, which allows to create filterable and paginated tables. The title was animated with the JS library Anime.js.</p>
         </div>
       </div>
       <div class="overflow-hidden">
         <div class="row d-flex justify-content-center outer">
-          <hr class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 linea">
-          <h3 class="titulo_seccion">Tema de los elementos</h3>
+          <h3 class="titulo_seccion mt-4">Elements’ topics</h3>
         </div>    
           <div class="row d-flex justify-content-center">
-          <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">- <b>Gráfico 1:</b> los mapas representan las secciones censales de las seis ciudades más grandes de España, atendiendo al precio del alquiler en cada una de ellas.<br>
-            - <b>Gráfico 2:</b> la tabla incluye de forma pormenorizada cada uno de los datos incluidos en el mapa y ofrece información extra.</p>
+          <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">- <b>Graph 1:</b> the maps represent the neighbourhoods of the six biggest cities in Spain and the rent prices in each of them.<br>
+            - <b>Graph 2:</b> the table includes the same information that the map has, but detailed.</p>
           </div>
         </div>
         <div class="overflow-hidden">
           <div class="row d-flex justify-content-center outer">
-            <hr class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 linea">
-            <h3 class="titulo_seccion">Qué he aprendido</h3>
+            <h3 class="titulo_seccion mt-4">What I learnt from it</h3>
           </div>    
             <div class="row d-flex justify-content-center">
-            <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">Pues la verdad es que es con uno de los proyectos con los que más he aprendido, ya que he podido extraer datos de archivos .shp y convertirlos a .csv, he aprendido a usar Anime.js, que jamás había empleado y, sobre todo, he aprendido a crear tablas 100% personalizables e interactivas con DataTables.</p>
+            <p class="parrafo col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8">It is such a small project, but I have learnt a lot with it. I have learnt how to work with shp files and transform them into csv files. I learnt how to use Anime.ja and, most of all, how to create 100% personalized tables with DataTables.</p>
             </div>
           </div>
           <div class="contacto_uno overflow-hidden">
             <div class="row d-flex justify-content-center">
-            <p class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 contacto_uno_texto">6399440466 / annaruiz982@gmail.com / <a href="#" class="contacto_uno_enlace">descargar cv</a></p>
+            <p class="col-8 col-xl-8 col-lg-8 col-md-6 col-sm-8 contacto_uno_texto">6399440466 / annaruiz982@gmail.com / <a href="pdf/resume_Ana_Ruiz_Espinar.pdf" download class="contacto_uno_enlace">download resume</a></p>
             </div>
             <div class="flex-row d-flex justify-content-center">
                   <a class="rrss_uno col-1 col-xl-1 col-lg-1 col-md-1 col-sm-1" href="https://twitter.com/anabelruizaire"><img class="iconos_rrss" src="img/img_galeria/twitter.png" id="twitter" alt="Twitter"></a>
